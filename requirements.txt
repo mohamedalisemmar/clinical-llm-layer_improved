@@ -1,0 +1,9 @@
+streamlit>=1.35
+pydantic>=2.5
+pandas>=2.0
+matplotlib>=3.7
+scipy>=1.10
+python-dotenv>=1.0
+anthropic>=0.40      # only needed if LLM_PROVIDER=anthropic
+openai>=1.40         # only needed if LLM_PROVIDER=openai (OpenAI, Groq, OpenRouter, Ollama...)
+pytest>=7.0

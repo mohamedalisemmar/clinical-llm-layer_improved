@@ -1,0 +1,255 @@
+{
+  "case_id": "X03",
+  "provider": "mock",
+  "model": "mock-clinical-simulator",
+  "raw_response": "Most likely diagnosis: Acute ischaemic stroke.\n\nThe findings supporting this are: sudden focal deficit, aphasia suggests dominant hemisphere, ct excludes haemorrhage.\n\nOther possibilities to consider include haemorrhagic stroke, todd's paralysis, stroke mimic (e.g. hypoglycaemia, migraine).\n\nRecommendation: confirm the diagnosis with the appropriate investigations, start guideline-based management and arrange senior review.",
+  "injected": false,
+  "structured": {
+    "primary_diagnosis": "Acute ischaemic stroke",
+    "recommendation": "Acute ischaemic stroke. Confirm with targeted investigations and start management.",
+    "main_factors": [
+      "Sudden focal deficit",
+      "Aphasia suggests dominant hemisphere",
+      "CT excludes haemorrhage"
+    ],
+    "missing_information": [
+      {
+        "item": "Previous records for comparison",
+        "importance": "minor"
+      }
+    ],
+    "alternatives": [
+      "Haemorrhagic stroke",
+      "Todd's paralysis",
+      "Stroke mimic (e.g. hypoglycaemia, migraine)"
+    ],
+    "limitations": [
+      "The case record contains conflicting information"
+    ],
+    "what_would_change": [
+      "If investigations point towards haemorrhagic stroke, reconsider the diagnosis",
+      "If investigations point towards todd's paralysis, reconsider the diagnosis"
+    ],
+    "verification_points": [
+      "Check: sudden focal deficit",
+      "Check: aphasia suggests dominant hemisphere"
+    ],
+    "input_inconsistencies": [
+      "The complaint documents LEFT-sided weakness, but examination documents RIGHT-sided weakness with aphasia."
+    ],
+    "verbal_confidence": null
+  },
+  "samples": [
+    {
+      "primary_diagnosis": "Acute ischaemic stroke",
+      "recommendation": "Acute ischaemic stroke. Confirm with targeted investigations and treat accordingly.",
+      "main_factors": [
+        "Sudden focal deficit",
+        "Aphasia suggests dominant hemisphere",
+        "CT excludes haemorrhage"
+      ],
+      "missing_information": [
+        "Previous records for comparison"
+      ],
+      "uncertainty": "Moderate uncertainty.",
+      "alternatives": [
+        "Haemorrhagic stroke",
+        "Todd's paralysis",
+        "Stroke mimic (e.g. hypoglycaemia, migraine)"
+      ],
+      "possible_contradictions": [],
+      "unreliability_factors": [],
+      "confidence": "medium",
+      "parse_ok": true
+    },
+    {
+      "primary_diagnosis": "Acute ischaemic stroke",
+      "recommendation": "Acute ischaemic stroke. Confirm with targeted investigations and treat accordingly.",
+      "main_factors": [
+        "Sudden focal deficit",
+        "Aphasia suggests dominant hemisphere",
+        "CT excludes haemorrhage"
+      ],
+      "missing_information": [
+        "Previous records for comparison"
+      ],
+      "uncertainty": "Moderate uncertainty.",
+      "alternatives": [
+        "Haemorrhagic stroke",
+        "Todd's paralysis",
+        "Stroke mimic (e.g. hypoglycaemia, migraine)"
+      ],
+      "possible_contradictions": [],
+      "unreliability_factors": [],
+      "confidence": "medium",
+      "parse_ok": true
+    },
+    {
+      "primary_diagnosis": "Acute ischaemic stroke",
+      "recommendation": "Acute ischaemic stroke. Confirm with targeted investigations and treat accordingly.",
+      "main_factors": [
+        "Sudden focal deficit",
+        "Aphasia suggests dominant hemisphere",
+        "CT excludes haemorrhage"
+      ],
+      "missing_information": [
+        "Previous records for comparison"
+      ],
+      "uncertainty": "Moderate uncertainty.",
+      "alternatives": [
+        "Haemorrhagic stroke",
+        "Todd's paralysis",
+        "Stroke mimic (e.g. hypoglycaemia, migraine)"
+      ],
+      "possible_contradictions": [],
+      "unreliability_factors": [],
+      "confidence": "medium",
+      "parse_ok": true
+    },
+    {
+      "primary_diagnosis": "Acute ischaemic stroke",
+      "recommendation": "Acute ischaemic stroke. Confirm with targeted investigations and treat accordingly.",
+      "main_factors": [
+        "Sudden focal deficit",
+        "Aphasia suggests dominant hemisphere",
+        "CT excludes haemorrhage"
+      ],
+      "missing_information": [
+        "Previous records for comparison"
+      ],
+      "uncertainty": "Moderate uncertainty.",
+      "alternatives": [
+        "Haemorrhagic stroke",
+        "Todd's paralysis",
+        "Stroke mimic (e.g. hypoglycaemia, migraine)"
+      ],
+      "possible_contradictions": [],
+      "unreliability_factors": [],
+      "confidence": "medium",
+      "parse_ok": true
+    },
+    {
+      "primary_diagnosis": "Acute ischaemic stroke",
+      "recommendation": "Acute ischaemic stroke. Confirm with targeted investigations and treat accordingly.",
+      "main_factors": [
+        "Sudden focal deficit",
+        "Aphasia suggests dominant hemisphere",
+        "CT excludes haemorrhage"
+      ],
+      "missing_information": [
+        "Previous records for comparison"
+      ],
+      "uncertainty": "Moderate uncertainty.",
+      "alternatives": [
+        "Haemorrhagic stroke",
+        "Todd's paralysis",
+        "Stroke mimic (e.g. hypoglycaemia, migraine)"
+      ],
+      "possible_contradictions": [],
+      "unreliability_factors": [],
+      "confidence": "medium",
+      "parse_ok": true
+    }
+  ],
+  "critical": {
+    "primary_diagnosis": "Acute ischaemic stroke",
+    "recommendation": "Acute ischaemic stroke.",
+    "main_factors": [],
+    "missing_information": [],
+    "uncertainty": "",
+    "alternatives": [],
+    "possible_contradictions": [
+      "The complaint documents LEFT-sided weakness, but examination documents RIGHT-sided weakness with aphasia."
+    ],
+    "unreliability_factors": [
+      "Synthetic case; no longitudinal data"
+    ],
+    "confidence": "medium",
+    "parse_ok": true
+  },
+  "sample_agreement": [
+    true,
+    true,
+    true,
+    true,
+    true
+  ],
+  "signals": [
+    {
+      "name": "consistency",
+      "label": "Consistency across repeated answers",
+      "status": "pass",
+      "value": 1.0,
+      "detail": "5 of 5 repeated answers gave the same diagnosis."
+    },
+    {
+      "name": "prompt_agreement",
+      "label": "Agreement across prompting strategies",
+      "status": "pass",
+      "value": "2/2",
+      "detail": "The structured and critical prompts reached the same diagnosis."
+    },
+    {
+      "name": "contradiction",
+      "label": "Contradictions",
+      "status": "pass",
+      "value": false,
+      "detail": "No contradiction found within the response or against the case data."
+    },
+    {
+      "name": "completeness",
+      "label": "Completeness of requested fields",
+      "status": "pass",
+      "value": 1.0,
+      "detail": "All requested fields were populated."
+    },
+    {
+      "name": "missing_information",
+      "label": "Missing information",
+      "status": "pass",
+      "value": 0.0,
+      "detail": "No critical data identified as missing. 1 minor item(s) noted."
+    },
+    {
+      "name": "input_inconsistency",
+      "label": "Inconsistencies in the case data",
+      "status": "warn",
+      "value": 1.0,
+      "detail": "The complaint documents LEFT-sided weakness, but examination documents RIGHT-sided weakness with aphasia."
+    },
+    {
+      "name": "verbal_confidence",
+      "label": "Model's stated confidence (supplementary)",
+      "status": "pass",
+      "value": "medium",
+      "detail": "The model describes its own confidence as medium. This is not a calibrated probability."
+    }
+  ],
+  "contradictions": [],
+  "reliability": {
+    "level": "MODERATE",
+    "explanation": "Moderate: consistent across repeated answers and the alternative prompts agreed, but the case data contain conflicting facts.",
+    "reasons": [
+      "the case data contain conflicting facts"
+    ],
+    "verify_independently": false
+  },
+  "judge": {
+    "scores": {
+      "completeness": 3.0,
+      "clarity": 4.0,
+      "internal_consistency": 3.0,
+      "uncertainty": 3.0,
+      "missing_information": 3.0,
+      "justification": 3.0
+    },
+    "safety_concern": false,
+    "safety_note": "",
+    "overall": 3.0,
+    "summary": "Reasonable response (mock assessment).",
+    "available": true
+  },
+  "n_llm_calls": 10,
+  "created_at": "2026-09-22T23:33:36+00:00",
+  "auto_correct": true
+}

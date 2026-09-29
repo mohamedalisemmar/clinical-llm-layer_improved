@@ -1,0 +1,288 @@
+{
+  "case_id": "M01",
+  "provider": "mock",
+  "model": "mock-clinical-simulator",
+  "raw_response": "Most likely diagnosis: Unstable angina.\n\nThe findings supporting this are: new exertional chest pain, rest pain this morning, multiple risk factors. Further information would help confirm this.\n\nOther possibilities to consider include stable angina, gastro-oesophageal reflux, musculoskeletal chest pain.\n\nRecommendation: confirm the diagnosis with the appropriate investigations, start guideline-based management and arrange senior review.",
+  "injected": false,
+  "structured": {
+    "primary_diagnosis": "Unstable angina",
+    "recommendation": "Unstable angina. Confirm with targeted investigations and start management.",
+    "main_factors": [
+      "New exertional chest pain",
+      "Rest pain this morning",
+      "Multiple risk factors"
+    ],
+    "missing_information": [
+      {
+        "item": "ECG",
+        "importance": "critical"
+      },
+      {
+        "item": "Troponin",
+        "importance": "critical"
+      },
+      {
+        "item": "Vital signs",
+        "importance": "critical"
+      },
+      {
+        "item": "Physical examination",
+        "importance": "critical"
+      },
+      {
+        "item": "Previous records for comparison",
+        "importance": "minor"
+      }
+    ],
+    "alternatives": [
+      "Stable angina",
+      "Gastro-oesophageal reflux",
+      "Musculoskeletal chest pain"
+    ],
+    "limitations": [
+      "Key investigations are not available"
+    ],
+    "what_would_change": [
+      "If investigations point towards stable angina, reconsider the diagnosis",
+      "If investigations point towards gastro-oesophageal reflux, reconsider the diagnosis"
+    ],
+    "verification_points": [
+      "Check: new exertional chest pain",
+      "Check: rest pain this morning"
+    ],
+    "input_inconsistencies": [],
+    "verbal_confidence": null
+  },
+  "samples": [
+    {
+      "primary_diagnosis": "Unstable angina",
+      "recommendation": "Unstable angina. Confirm with targeted investigations and treat accordingly.",
+      "main_factors": [
+        "New exertional chest pain",
+        "Rest pain this morning",
+        "Multiple risk factors"
+      ],
+      "missing_information": [
+        "ECG",
+        "Troponin",
+        "Vital signs",
+        "Physical examination"
+      ],
+      "uncertainty": "Moderate uncertainty.",
+      "alternatives": [
+        "Stable angina",
+        "Gastro-oesophageal reflux",
+        "Musculoskeletal chest pain"
+      ],
+      "possible_contradictions": [],
+      "unreliability_factors": [],
+      "confidence": "low",
+      "parse_ok": true
+    },
+    {
+      "primary_diagnosis": "Unstable angina",
+      "recommendation": "Unstable angina. Confirm with targeted investigations and treat accordingly.",
+      "main_factors": [
+        "New exertional chest pain",
+        "Rest pain this morning",
+        "Multiple risk factors"
+      ],
+      "missing_information": [
+        "ECG",
+        "Troponin",
+        "Vital signs",
+        "Physical examination"
+      ],
+      "uncertainty": "Moderate uncertainty.",
+      "alternatives": [
+        "Stable angina",
+        "Gastro-oesophageal reflux",
+        "Musculoskeletal chest pain"
+      ],
+      "possible_contradictions": [],
+      "unreliability_factors": [],
+      "confidence": "low",
+      "parse_ok": true
+    },
+    {
+      "primary_diagnosis": "Unstable angina",
+      "recommendation": "Unstable angina. Confirm with targeted investigations and treat accordingly.",
+      "main_factors": [
+        "New exertional chest pain",
+        "Rest pain this morning",
+        "Multiple risk factors"
+      ],
+      "missing_information": [
+        "ECG",
+        "Troponin",
+        "Vital signs",
+        "Physical examination"
+      ],
+      "uncertainty": "Moderate uncertainty.",
+      "alternatives": [
+        "Stable angina",
+        "Gastro-oesophageal reflux",
+        "Musculoskeletal chest pain"
+      ],
+      "possible_contradictions": [],
+      "unreliability_factors": [],
+      "confidence": "low",
+      "parse_ok": true
+    },
+    {
+      "primary_diagnosis": "Unstable angina",
+      "recommendation": "Unstable angina. Confirm with targeted investigations and treat accordingly.",
+      "main_factors": [
+        "New exertional chest pain",
+        "Rest pain this morning",
+        "Multiple risk factors"
+      ],
+      "missing_information": [
+        "ECG",
+        "Troponin",
+        "Vital signs",
+        "Physical examination"
+      ],
+      "uncertainty": "Moderate uncertainty.",
+      "alternatives": [
+        "Stable angina",
+        "Gastro-oesophageal reflux",
+        "Musculoskeletal chest pain"
+      ],
+      "possible_contradictions": [],
+      "unreliability_factors": [],
+      "confidence": "low",
+      "parse_ok": true
+    },
+    {
+      "primary_diagnosis": "Unstable angina",
+      "recommendation": "Unstable angina. Confirm with targeted investigations and treat accordingly.",
+      "main_factors": [
+        "New exertional chest pain",
+        "Rest pain this morning",
+        "Multiple risk factors"
+      ],
+      "missing_information": [
+        "ECG",
+        "Troponin",
+        "Vital signs",
+        "Physical examination"
+      ],
+      "uncertainty": "Moderate uncertainty.",
+      "alternatives": [
+        "Stable angina",
+        "Gastro-oesophageal reflux",
+        "Musculoskeletal chest pain"
+      ],
+      "possible_contradictions": [],
+      "unreliability_factors": [],
+      "confidence": "low",
+      "parse_ok": true
+    }
+  ],
+  "critical": {
+    "primary_diagnosis": "Unstable angina",
+    "recommendation": "Unstable angina.",
+    "main_factors": [],
+    "missing_information": [
+      "ECG",
+      "Troponin",
+      "Vital signs",
+      "Physical examination"
+    ],
+    "uncertainty": "",
+    "alternatives": [],
+    "possible_contradictions": [],
+    "unreliability_factors": [
+      "Synthetic case; no longitudinal data"
+    ],
+    "confidence": "low",
+    "parse_ok": true
+  },
+  "sample_agreement": [
+    true,
+    true,
+    true,
+    true,
+    true
+  ],
+  "signals": [
+    {
+      "name": "consistency",
+      "label": "Consistency across repeated answers",
+      "status": "pass",
+      "value": 1.0,
+      "detail": "5 of 5 repeated answers gave the same diagnosis."
+    },
+    {
+      "name": "prompt_agreement",
+      "label": "Agreement across prompting strategies",
+      "status": "pass",
+      "value": "2/2",
+      "detail": "The structured and critical prompts reached the same diagnosis."
+    },
+    {
+      "name": "contradiction",
+      "label": "Contradictions",
+      "status": "pass",
+      "value": false,
+      "detail": "No contradiction found within the response or against the case data."
+    },
+    {
+      "name": "completeness",
+      "label": "Completeness of requested fields",
+      "status": "pass",
+      "value": 1.0,
+      "detail": "All requested fields were populated."
+    },
+    {
+      "name": "missing_information",
+      "label": "Missing information",
+      "status": "warn",
+      "value": 4.0,
+      "detail": "Critical data missing: ECG; Troponin; Vital signs; Physical examination."
+    },
+    {
+      "name": "input_inconsistency",
+      "label": "Inconsistencies in the case data",
+      "status": "pass",
+      "value": 0.0,
+      "detail": "No conflicting facts found in the case data."
+    },
+    {
+      "name": "verbal_confidence",
+      "label": "Model's stated confidence (supplementary)",
+      "status": "warn",
+      "value": "low",
+      "detail": "The model describes its own confidence as low. This is not a calibrated probability."
+    }
+  ],
+  "contradictions": [],
+  "reliability": {
+    "level": "MODERATE",
+    "explanation": "Moderate: consistent across repeated answers and the alternative prompts agreed, but key information is missing (ecg, troponin, vital signs...) and the model itself states low confidence.",
+    "reasons": [
+      "key information is missing (ecg, troponin, vital signs...)",
+      "the model itself states low confidence"
+    ],
+    "verify_independently": false
+  },
+  "judge": {
+    "scores": {
+      "completeness": 3.0,
+      "clarity": 4.0,
+      "internal_consistency": 3.0,
+      "uncertainty": 3.0,
+      "missing_information": 2.0,
+      "justification": 3.0
+    },
+    "safety_concern": false,
+    "safety_note": "",
+    "overall": 3.0,
+    "summary": "Reasonable response (mock assessment).",
+    "available": true
+  },
+  "n_llm_calls": 10,
+  "created_at": "2026-09-22T23:33:36+00:00",
+  "auto_correct": true
+}

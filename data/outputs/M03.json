@@ -1,0 +1,288 @@
+{
+  "case_id": "M03",
+  "provider": "mock",
+  "model": "mock-clinical-simulator",
+  "raw_response": "Most likely diagnosis: Type 2 diabetes mellitus.\n\nThe findings supporting this are: polyuria and polydipsia, weight loss, family history of diabetes. Further information would help confirm this.\n\nOther possibilities to consider include hypercalcaemia, malignancy, diabetes insipidus.\n\nRecommendation: confirm the diagnosis with the appropriate investigations, start guideline-based management and arrange senior review.",
+  "injected": false,
+  "structured": {
+    "primary_diagnosis": "Type 2 diabetes mellitus",
+    "recommendation": "Type 2 diabetes mellitus. Confirm with targeted investigations and start management.",
+    "main_factors": [
+      "Polyuria and polydipsia",
+      "Weight loss",
+      "Family history of diabetes"
+    ],
+    "missing_information": [
+      {
+        "item": "Blood glucose",
+        "importance": "critical"
+      },
+      {
+        "item": "HbA1c",
+        "importance": "critical"
+      },
+      {
+        "item": "Serum calcium",
+        "importance": "critical"
+      },
+      {
+        "item": "Renal function",
+        "importance": "critical"
+      },
+      {
+        "item": "Previous records for comparison",
+        "importance": "minor"
+      }
+    ],
+    "alternatives": [
+      "Hypercalcaemia",
+      "Malignancy",
+      "Diabetes insipidus"
+    ],
+    "limitations": [
+      "Key investigations are not available"
+    ],
+    "what_would_change": [
+      "If investigations point towards hypercalcaemia, reconsider the diagnosis",
+      "If investigations point towards malignancy, reconsider the diagnosis"
+    ],
+    "verification_points": [
+      "Check: polyuria and polydipsia",
+      "Check: weight loss"
+    ],
+    "input_inconsistencies": [],
+    "verbal_confidence": null
+  },
+  "samples": [
+    {
+      "primary_diagnosis": "Type 2 diabetes mellitus",
+      "recommendation": "Type 2 diabetes mellitus. Confirm with targeted investigations and treat accordingly.",
+      "main_factors": [
+        "Polyuria and polydipsia",
+        "Weight loss",
+        "Family history of diabetes"
+      ],
+      "missing_information": [
+        "Blood glucose",
+        "HbA1c",
+        "Serum calcium",
+        "Renal function"
+      ],
+      "uncertainty": "Moderate uncertainty.",
+      "alternatives": [
+        "Hypercalcaemia",
+        "Malignancy",
+        "Diabetes insipidus"
+      ],
+      "possible_contradictions": [],
+      "unreliability_factors": [],
+      "confidence": "low",
+      "parse_ok": true
+    },
+    {
+      "primary_diagnosis": "Type 2 diabetes mellitus",
+      "recommendation": "Type 2 diabetes mellitus. Confirm with targeted investigations and treat accordingly.",
+      "main_factors": [
+        "Polyuria and polydipsia",
+        "Weight loss",
+        "Family history of diabetes"
+      ],
+      "missing_information": [
+        "Blood glucose",
+        "HbA1c",
+        "Serum calcium",
+        "Renal function"
+      ],
+      "uncertainty": "Moderate uncertainty.",
+      "alternatives": [
+        "Hypercalcaemia",
+        "Malignancy",
+        "Diabetes insipidus"
+      ],
+      "possible_contradictions": [],
+      "unreliability_factors": [],
+      "confidence": "low",
+      "parse_ok": true
+    },
+    {
+      "primary_diagnosis": "Type 2 diabetes mellitus",
+      "recommendation": "Type 2 diabetes mellitus. Confirm with targeted investigations and treat accordingly.",
+      "main_factors": [
+        "Polyuria and polydipsia",
+        "Weight loss",
+        "Family history of diabetes"
+      ],
+      "missing_information": [
+        "Blood glucose",
+        "HbA1c",
+        "Serum calcium",
+        "Renal function"
+      ],
+      "uncertainty": "Moderate uncertainty.",
+      "alternatives": [
+        "Hypercalcaemia",
+        "Malignancy",
+        "Diabetes insipidus"
+      ],
+      "possible_contradictions": [],
+      "unreliability_factors": [],
+      "confidence": "low",
+      "parse_ok": true
+    },
+    {
+      "primary_diagnosis": "Type 2 diabetes mellitus",
+      "recommendation": "Type 2 diabetes mellitus. Confirm with targeted investigations and treat accordingly.",
+      "main_factors": [
+        "Polyuria and polydipsia",
+        "Weight loss",
+        "Family history of diabetes"
+      ],
+      "missing_information": [
+        "Blood glucose",
+        "HbA1c",
+        "Serum calcium",
+        "Renal function"
+      ],
+      "uncertainty": "Moderate uncertainty.",
+      "alternatives": [
+        "Hypercalcaemia",
+        "Malignancy",
+        "Diabetes insipidus"
+      ],
+      "possible_contradictions": [],
+      "unreliability_factors": [],
+      "confidence": "low",
+      "parse_ok": true
+    },
+    {
+      "primary_diagnosis": "Hypercalcaemia",
+      "recommendation": "Hypercalcaemia. Confirm with targeted investigations and treat accordingly.",
+      "main_factors": [
+        "Polyuria and polydipsia",
+        "Weight loss",
+        "Family history of diabetes"
+      ],
+      "missing_information": [
+        "Blood glucose",
+        "HbA1c",
+        "Serum calcium",
+        "Renal function"
+      ],
+      "uncertainty": "Moderate uncertainty.",
+      "alternatives": [
+        "Malignancy",
+        "Diabetes insipidus",
+        "Type 2 diabetes mellitus"
+      ],
+      "possible_contradictions": [],
+      "unreliability_factors": [],
+      "confidence": "low",
+      "parse_ok": true
+    }
+  ],
+  "critical": {
+    "primary_diagnosis": "Type 2 diabetes mellitus",
+    "recommendation": "Type 2 diabetes mellitus.",
+    "main_factors": [],
+    "missing_information": [
+      "Blood glucose",
+      "HbA1c",
+      "Serum calcium",
+      "Renal function"
+    ],
+    "uncertainty": "",
+    "alternatives": [],
+    "possible_contradictions": [],
+    "unreliability_factors": [
+      "Synthetic case; no longitudinal data"
+    ],
+    "confidence": "low",
+    "parse_ok": true
+  },
+  "sample_agreement": [
+    true,
+    true,
+    true,
+    true,
+    false
+  ],
+  "signals": [
+    {
+      "name": "consistency",
+      "label": "Consistency across repeated answers",
+      "status": "pass",
+      "value": 0.8,
+      "detail": "4 of 5 repeated answers gave the same diagnosis. Other answers: Hypercalcaemia."
+    },
+    {
+      "name": "prompt_agreement",
+      "label": "Agreement across prompting strategies",
+      "status": "pass",
+      "value": "2/2",
+      "detail": "The structured and critical prompts reached the same diagnosis."
+    },
+    {
+      "name": "contradiction",
+      "label": "Contradictions",
+      "status": "pass",
+      "value": false,
+      "detail": "No contradiction found within the response or against the case data."
+    },
+    {
+      "name": "completeness",
+      "label": "Completeness of requested fields",
+      "status": "pass",
+      "value": 1.0,
+      "detail": "All requested fields were populated."
+    },
+    {
+      "name": "missing_information",
+      "label": "Missing information",
+      "status": "warn",
+      "value": 4.0,
+      "detail": "Critical data missing: Blood glucose; HbA1c; Serum calcium; Renal function."
+    },
+    {
+      "name": "input_inconsistency",
+      "label": "Inconsistencies in the case data",
+      "status": "pass",
+      "value": 0.0,
+      "detail": "No conflicting facts found in the case data."
+    },
+    {
+      "name": "verbal_confidence",
+      "label": "Model's stated confidence (supplementary)",
+      "status": "warn",
+      "value": "low",
+      "detail": "The model describes its own confidence as low. This is not a calibrated probability."
+    }
+  ],
+  "contradictions": [],
+  "reliability": {
+    "level": "MODERATE",
+    "explanation": "Moderate: consistent across repeated answers and the alternative prompts agreed, but key information is missing (blood glucose, hba1c, serum calcium...) and the model itself states low confidence.",
+    "reasons": [
+      "key information is missing (blood glucose, hba1c, serum calcium...)",
+      "the model itself states low confidence"
+    ],
+    "verify_independently": false
+  },
+  "judge": {
+    "scores": {
+      "completeness": 3.0,
+      "clarity": 4.0,
+      "internal_consistency": 3.0,
+      "uncertainty": 3.0,
+      "missing_information": 2.0,
+      "justification": 3.0
+    },
+    "safety_concern": false,
+    "safety_note": "",
+    "overall": 3.0,
+    "summary": "Reasonable response (mock assessment).",
+    "available": true
+  },
+  "n_llm_calls": 10,
+  "created_at": "2026-09-22T23:33:36+00:00",
+  "auto_correct": true
+}

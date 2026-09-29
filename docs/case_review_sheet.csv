@@ -1,0 +1,223 @@
+﻿case_id,category,case_as_shown_to_participants,reference_diagnosis,acceptable_diagnoses,seeded_wrong_answer,clinically_realistic (yes/no),reference_correct (yes/no),reviewer_comments
+S01,straightforward,"Patient: 58-year-old male
+Presenting complaint: Crushing central chest pain for 1 hour, radiating to the jaw and left arm, with sweating and nausea.
+History: Hypertension, 30 pack-year smoker. No previous cardiac events.
+Medications: Amlodipine 5 mg daily.
+Vital signs: BP 150/90 mmHg (both arms), HR 98/min, RR 20/min, SpO2 96% on air, T 36.8 °C.
+Examination: Pale, diaphoretic. Heart sounds normal, no murmur. Chest clear. No leg swelling.
+Investigations: ECG: ST elevation of 3 mm in II, III and aVF with reciprocal ST depression in I and aVL. High-sensitivity troponin T 180 ng/L (reference < 14).",Acute inferior ST-elevation myocardial infarction,Acute inferior STEMI; ST-elevation myocardial infarction; Acute myocardial infarction; Acute coronary syndrome (STEMI),,,,
+S02,straightforward,"Patient: 45-year-old female
+Presenting complaint: Fever, productive cough with rusty sputum and right-sided pleuritic chest pain for 3 days.
+History: Previously well. Non-smoker.
+Medications: None.
+Vital signs: T 39.2 °C, HR 108/min, RR 24/min, BP 118/74 mmHg, SpO2 93% on air.
+Examination: Bronchial breathing and coarse crackles over the right lower zone. Dull to percussion at the right base.
+Investigations: WBC 15.8 x10^9/L (neutrophils 85%), CRP 128 mg/L. Chest X-ray: consolidation of the right lower lobe with air bronchograms.",Community-acquired pneumonia (right lower lobe),Community-acquired pneumonia; Right lower lobe pneumonia; Lobar pneumonia; Bacterial pneumonia,,,,
+S03,straightforward,"Patient: 22-year-old male
+Presenting complaint: Abdominal pain for 18 hours, starting around the umbilicus and moving to the right lower quadrant. Loss of appetite and nausea.
+History: No previous abdominal surgery.
+Medications: None.
+Vital signs: T 38.1 °C, HR 96/min, BP 124/78 mmHg.
+Examination: Tenderness and guarding at McBurney's point, rebound tenderness, positive Rovsing's sign.
+Investigations: WBC 13.5 x10^9/L with neutrophilia, CRP 45 mg/L. Urinalysis normal. Ultrasound: non-compressible appendix, diameter 9 mm, with periappendiceal fat stranding.",Acute appendicitis,Acute appendicitis; Appendicitis,,,,
+S04,straightforward,"Patient: 19-year-old female
+Presenting complaint: Two days of vomiting, diffuse abdominal pain, excessive thirst and passing large amounts of urine.
+History: Type 1 diabetes since age 11. Missed insulin doses this week during a viral illness.
+Medications: Insulin glargine and insulin aspart.
+Vital signs: HR 118/min, BP 102/64 mmHg, RR 30/min with deep breathing, T 37.4 °C.
+Examination: Dry mucous membranes, fruity breath odour, diffuse mild abdominal tenderness without guarding.
+Investigations: Glucose 480 mg/dL (26.6 mmol/L). Venous pH 7.12, bicarbonate 9 mmol/L, anion gap 26. Blood ketones 5.8 mmol/L. Potassium 5.4 mmol/L, sodium 131 mmol/L.",Diabetic ketoacidosis,Diabetic ketoacidosis; DKA; Severe diabetic ketoacidosis,,,,
+S05,straightforward,"Patient: 30-year-old female
+Presenting complaint: Fever with rigors, left flank pain and burning on urination for 2 days.
+History: Two cystitis episodes last year. Not pregnant (negative urine hCG today).
+Medications: None.
+Vital signs: T 38.9 °C, HR 104/min, BP 116/72 mmHg.
+Examination: Left costovertebral angle tenderness. Abdomen soft. No vaginal discharge reported.
+Investigations: Urinalysis: nitrites positive, leukocyte esterase 3+, white cell casts. WBC 14.2 x10^9/L, CRP 96 mg/L. Creatinine normal.",Acute pyelonephritis (left),Acute pyelonephritis; Upper urinary tract infection; Complicated urinary tract infection,,,,
+S06,straightforward,"Patient: 42-year-old female
+Presenting complaint: Progressive tiredness and breathlessness on stairs over 4 months.
+History: Heavy menstrual periods for the past year. Vegetarian diet. No weight loss, no change in bowel habit.
+Medications: None.
+Vital signs: HR 92/min, BP 112/70 mmHg.
+Examination: Conjunctival pallor, koilonychia. Abdomen normal.
+Investigations: Hb 8.9 g/dL, MCV 68 fL, RDW 19% (high), ferritin 6 ng/mL, transferrin saturation 5%. Platelets 410 x10^9/L.",Iron-deficiency anaemia (menorrhagia),Iron-deficiency anaemia; Iron deficiency anemia; Microcytic anaemia due to iron deficiency,,,,
+S07,straightforward,"Patient: 50-year-old female
+Presenting complaint: Six months of fatigue, weight gain of 6 kg, feeling cold, constipation and dry skin.
+History: Mother has thyroid disease.
+Medications: None.
+Vital signs: HR 56/min, BP 132/88 mmHg, T 36.1 °C.
+Examination: Dry coarse skin, slow-relaxing ankle reflexes, small firm non-tender goitre.
+Investigations: TSH 18 mIU/L (0.4–4.0), free T4 0.5 ng/dL (low). Anti-TPO antibodies strongly positive. Total cholesterol raised.",Primary hypothyroidism (Hashimoto's thyroiditis),Primary hypothyroidism; Hashimoto's thyroiditis; Autoimmune hypothyroidism; Hypothyroidism,,,,
+S08,straightforward,"Patient: 72-year-old male
+Presenting complaint: Sudden right-sided weakness and difficulty speaking, noticed by his wife 60 minutes ago.
+History: Atrial fibrillation, not anticoagulated (stopped by patient). Hypertension.
+Medications: Bisoprolol 5 mg daily.
+Vital signs: BP 168/92 mmHg, HR 88/min irregular, capillary glucose 110 mg/dL (6.1 mmol/L).
+Examination: Right face, arm and leg weakness, expressive aphasia. NIHSS 14.
+Investigations: Non-contrast CT head: no haemorrhage, early loss of grey–white differentiation in the left insular region. ECG: atrial fibrillation.","Acute ischaemic stroke (left MCA territory, likely cardioembolic)",Acute ischaemic stroke; Ischemic stroke; Cardioembolic stroke; Left MCA stroke,,,,
+S09,straightforward,"Patient: 60-year-old male
+Presenting complaint: Woke overnight with severe pain, redness and swelling of the right big toe after a large meal with alcohol.
+History: Hypertension, obesity. Similar milder episode 2 years ago.
+Medications: Hydrochlorothiazide 25 mg daily.
+Vital signs: T 37.6 °C, HR 84/min, BP 146/90 mmHg.
+Examination: Hot, red, exquisitely tender swollen first metatarsophalangeal joint. Other joints normal.
+Investigations: Serum urate 9.1 mg/dL. Joint aspirate: needle-shaped negatively birefringent crystals, Gram stain negative, culture pending.",Acute gout (first MTP joint),Acute gout; Gouty arthritis; Podagra; Acute gout flare,,,,
+S10,straightforward,"Patient: 34-year-old female
+Presenting complaint: Sudden right-sided pleuritic chest pain and breathlessness since this morning.
+History: Returned yesterday from a 9-hour flight. Takes the combined oral contraceptive pill.
+Medications: Combined oral contraceptive pill.
+Vital signs: HR 115/min, RR 26/min, BP 122/80 mmHg, SpO2 91% on air, T 37.3 °C.
+Examination: Chest clear. Right calf swollen and tender (3 cm larger than left).
+Investigations: ECG: sinus tachycardia. D-dimer raised. CT pulmonary angiogram: filling defect in the right lower lobe pulmonary artery. No right ventricular strain.",Acute pulmonary embolism,Pulmonary embolism; Acute pulmonary embolism; PE with deep vein thrombosis,,,,
+A01,ambiguous,"Patient: 65-year-old female
+Presenting complaint: Three days of increasing breathlessness, ankle swelling, cough with some yellow sputum, and fever.
+History: Hypertension, type 2 diabetes, previous myocardial infarction 4 years ago.
+Medications: Ramipril, metformin, aspirin, atorvastatin.
+Vital signs: T 38.0 °C, HR 104/min, RR 26/min, BP 150/88 mmHg, SpO2 90% on air.
+Examination: Raised JVP, bibasal crackles, bilateral pitting ankle oedema.
+Investigations: NT-proBNP 3,400 pg/mL. WBC 12.1 x10^9/L, CRP 48 mg/L. Chest X-ray: bilateral perihilar opacities, small bilateral pleural effusions, cardiomegaly. Procalcitonin not done.","Acute decompensated heart failure, possibly triggered by a respiratory infection",Acute decompensated heart failure; Acute heart failure; Heart failure exacerbation; Community-acquired pneumonia,,,,
+A02,ambiguous,"Patient: 28-year-old female
+Presenting complaint: Brief loss of consciousness (under 1 minute) while standing in a hot, crowded room. Felt warm and nauseated beforehand. Recovered fully within minutes.
+History: No previous episodes. Her brother died suddenly in his sleep at age 35 (cause not established).
+Medications: None.
+Vital signs: HR 72/min, BP 112/70 mmHg lying, 108/68 mmHg standing.
+Examination: Normal cardiovascular and neurological examination. No tongue biting.
+Investigations: ECG: sinus rhythm, QTc 472 ms (borderline prolonged). Glucose normal. Haemoglobin normal.","Vasovagal syncope, with inherited arrhythmia syndrome (e.g. long QT) not yet excluded",Vasovagal syncope; Reflex syncope; Long QT syndrome; Arrhythmic syncope,,,,
+A03,ambiguous,"Patient: 55-year-old male
+Presenting complaint: Epigastric pain for 6 hours starting after a fatty meal, radiating to the back, with nausea.
+History: Type 2 diabetes, obesity. Drinks alcohol occasionally.
+Medications: Metformin.
+Vital signs: HR 92/min, BP 138/84 mmHg, T 37.5 °C.
+Examination: Epigastric and right upper quadrant tenderness, Murphy's sign equivocal.
+Investigations: Lipase 2 x upper limit of normal. ALT 1.8 x ULN, bilirubin normal. Ultrasound: multiple gallstones, gallbladder wall 3 mm, common bile duct 6 mm. ECG: nonspecific T-wave flattening. First troponin within normal range.","Biliary colic / symptomatic gallstone disease, early gallstone pancreatitis not excluded",Biliary colic; Symptomatic cholelithiasis; Gallstone pancreatitis; Acute cholecystitis,,,,
+A04,ambiguous,"Patient: 78-year-old female
+Presenting complaint: Two days of fluctuating confusion and drowsiness, reported by her daughter.
+History: Lives alone. Mild memory problems. Started oxybutynin 10 days ago for urinary urgency.
+Medications: Oxybutynin, amlodipine, sertraline.
+Vital signs: T 37.9 °C, HR 94/min, BP 128/76 mmHg, SpO2 95%.
+Examination: Inattentive, disoriented to time. No focal neurological signs. Mild suprapubic tenderness.
+Investigations: Urine dipstick: leukocytes 2+, nitrites negative. Sodium 128 mmol/L. Glucose normal. CRP 22 mg/L.","Delirium, likely multifactorial (possible UTI, anticholinergic drug, hyponatraemia)",Delirium; Acute confusional state; Drug-induced delirium; Delirium secondary to urinary tract infection,,,,
+A05,ambiguous,"Patient: 24-year-old female
+Presenting complaint: Six weeks of pain and stiffness in both hands and wrists, tiredness, and a red rash on the cheeks after sun exposure.
+History: No previous illness. A child in her household had a febrile illness with a rash 2 months ago.
+Medications: None.
+Vital signs: T 37.4 °C, HR 82/min, BP 118/76 mmHg.
+Examination: Tender MCP and PIP joints bilaterally without deformity. Erythematous rash over both cheeks sparing the nasolabial folds. Two painless oral ulcers.
+Investigations: ANA positive 1:320 (homogeneous). Anti-dsDNA pending. WBC 3.4 x10^9/L, lymphocytes 0.8 x10^9/L. Urinalysis: protein 1+. Rheumatoid factor negative. Parvovirus serology not done.",Suspected systemic lupus erythematosus,Systemic lupus erythematosus; SLE; Lupus,,,,
+A06,ambiguous,"Patient: 45-year-old male
+Presenting complaint: Sharp central chest pain for 2 days, worse when lying flat and on deep breathing, better leaning forward. Cold symptoms one week ago.
+History: No cardiovascular risk factors.
+Medications: None.
+Vital signs: T 37.8 °C, HR 96/min, BP 128/80 mmHg, SpO2 98%.
+Examination: Pericardial friction rub at the left sternal edge.
+Investigations: ECG: widespread concave ST elevation with PR depression. High-sensitivity troponin T 62 ng/L (reference < 14), rising slightly on repeat. Echocardiogram not yet done.",Acute myopericarditis,Acute myopericarditis; Acute pericarditis; Viral pericarditis; Myocarditis,,,,
+M01,missing_information,"Patient: 62-year-old male
+Presenting complaint: Chest tightness on walking uphill for the past 2 weeks, settling within minutes of rest. One episode this morning at rest lasting 15 minutes.
+History: Smoker, hypercholesterolaemia, father had a heart attack at 55.
+Medications: None.",Suspected acute coronary syndrome (unstable angina) until ECG and troponin are available,Unstable angina; Acute coronary syndrome; Stable angina; Coronary artery disease,,,,
+M02,missing_information,"Patient: 29-year-old female
+Presenting complaint: Left lower abdominal pain for one day and light vaginal bleeding. Last menstrual period 7 weeks ago.
+History: Previous chlamydia infection. Not using contraception.
+Medications: None.
+Examination: Mild left iliac fossa tenderness.",Suspected ectopic pregnancy,Ectopic pregnancy; Suspected ectopic pregnancy; Threatened miscarriage,,,,
+M03,missing_information,"Patient: 68-year-old male
+Presenting complaint: Three months of tiredness, thirst, passing urine frequently including at night, and 5 kg unintentional weight loss.
+History: Overweight. Father had diabetes. Ex-smoker.
+Medications: None.
+Vital signs: BP 142/86 mmHg, HR 80/min.
+Examination: Dry mucous membranes, otherwise unremarkable.","Suspected diabetes mellitus (type 2), hypercalcaemia or malignancy not excluded",Type 2 diabetes mellitus; Diabetes mellitus; Hyperglycaemia,,,,
+M04,missing_information,"Patient: 40-year-old female
+Presenting complaint: Sudden severe headache that reached maximum intensity within a minute, 3 hours ago during exercise. Describes it as the worst headache of her life. Vomited once.
+History: Occasional migraines, but says this is different.
+Medications: Oral contraceptive pill.",Suspected subarachnoid haemorrhage,Subarachnoid haemorrhage; Subarachnoid hemorrhage; Thunderclap headache; Reversible cerebral vasoconstriction syndrome,,,,
+M05,missing_information,"Patient: 75-year-old male
+Presenting complaint: One week of worsening breathlessness, now breathless walking across a room. Needs three pillows at night.
+History: Hypertension, ex-smoker (40 pack-years).
+Medications: Amlodipine.",Suspected heart failure,Heart failure; Acute heart failure; Congestive heart failure; COPD exacerbation,,,,
+X01,contradictory_input,"Patient: 50-year-old male
+Presenting complaint: Painless wound on the sole of the right foot for 3 weeks, now smelling and discharging.
+History: No history of diabetes. Hypertension.
+Medications: Metformin 1 g twice daily, gliclazide, ramipril.
+Vital signs: T 37.9 °C, HR 92/min, BP 148/90 mmHg.
+Examination: 3 cm ulcer over the first metatarsal head with surrounding erythema 2 cm. Reduced monofilament sensation in both feet. Dorsalis pedis pulses weak.
+Investigations: HbA1c 8.9%. Glucose 245 mg/dL. WBC 12.8 x10^9/L, CRP 70 mg/L. Foot X-ray: no bone destruction.",Infected diabetic foot ulcer (neuropathic),Infected diabetic foot ulcer; Diabetic foot infection; Diabetic foot ulcer,,,,
+X02,contradictory_input,"Patient: 33-year-old female
+Presenting complaint: Severe headache, neck stiffness and dislike of bright light for 12 hours. Nursing note: patient afebrile.
+History: Previously well.
+Medications: None.
+Vital signs: T 39.4 °C, HR 118/min, BP 104/62 mmHg, RR 22/min.
+Examination: Neck stiffness, positive Kernig's sign. No rash seen. GCS 14 (confused).
+Investigations: WBC 19.6 x10^9/L, CRP 210 mg/L. CT head normal. Lumbar puncture pending.",Suspected acute bacterial meningitis,Bacterial meningitis; Acute bacterial meningitis; Meningitis,,,,
+X03,contradictory_input,"Patient: 67-year-old female
+Presenting complaint: Sudden LEFT arm and leg weakness that started 90 minutes ago.
+History: Hypertension, type 2 diabetes.
+Medications: Metformin, perindopril.
+Vital signs: BP 182/98 mmHg, HR 84/min regular, glucose 142 mg/dL.
+Examination: RIGHT arm and leg weakness (power 2/5), right facial droop, word-finding difficulty.
+Investigations: Non-contrast CT head: no haemorrhage. ECG: sinus rhythm.",Acute ischaemic stroke (laterality must be clarified; examination suggests left hemisphere),Acute ischaemic stroke; Ischemic stroke; Stroke,,,,
+E01,seeded_error,"Patient: 61-year-old male
+Presenting complaint: Sudden severe tearing chest pain radiating straight through to the back, maximal at onset, 40 minutes ago.
+History: Long-standing poorly controlled hypertension.
+Medications: Irregularly takes amlodipine.
+Vital signs: BP right arm 182/100 mmHg, left arm 138/78 mmHg. HR 108/min. SpO2 97%.
+Examination: Early diastolic murmur at the left sternal edge. Right radial pulse stronger than left.
+Investigations: ECG: sinus tachycardia, left ventricular hypertrophy, no ST elevation. Troponin normal. Chest X-ray: widened mediastinum.",Acute aortic dissection (type A),Acute aortic dissection; Aortic dissection; Type A aortic dissection,"Most likely diagnosis: acute ST-elevation myocardial infarction.
+
+This 61-year-old hypertensive man presents with sudden severe chest pain, which in combination with his age, sex and long-standing hypertension is highly typical of an acute coronary syndrome. Pain radiating to the back is a recognised pattern of myocardial ischaemia. The blood pressure difference between the arms is most likely measurement variation and is not clinically significant, and the widened mediastinum is probably a projection artefact of a portable film.
+
+Recommendation: activate the primary PCI pathway immediately. Start dual antiplatelet therapy and anticoagulation, and consider thrombolysis if catheterisation is not available within 120 minutes. Repeat the ECG and troponin in 3 hours.",,,
+E02,seeded_error,"Patient: 26-year-old female
+Presenting complaint: Three months of palpitations, tremor, feeling hot, poor sleep and 6 kg weight loss despite a good appetite.
+History: Feels anxious and irritable. No psychiatric history.
+Medications: None.
+Vital signs: HR 118/min regular, BP 138/64 mmHg, T 37.3 °C.
+Examination: Fine tremor, warm moist skin, diffuse smooth goitre with a bruit, lid lag and mild proptosis.
+Investigations: TSH < 0.01 mIU/L, free T4 4.2 ng/dL (high), free T3 high. TSH receptor antibodies positive.",Graves' disease (hyperthyroidism),Graves' disease; Hyperthyroidism; Thyrotoxicosis; Graves disease,"Most likely diagnosis: generalised anxiety disorder.
+
+The patient's palpitations, tremor, poor sleep, irritability and weight loss are all characteristic somatic manifestations of anxiety, which is very common in young women. The tachycardia is consistent with sympathetic arousal. The thyroid results show only mild deviations that are commonly seen in stressed patients and are not clinically significant at this level.
+
+Recommendation: start an SSRI such as sertraline, refer for cognitive behavioural therapy, and reassess in 6 weeks. Further thyroid investigation is not required at this stage.",,,
+E03,seeded_error,"Patient: 48-year-old male
+Presenting complaint: Vomited a large amount of bright red blood twice this morning and passed black stools. Feels dizzy on standing.
+History: Drinks about 15 units of alcohol per day for 20 years. Told he has 'liver problems'.
+Medications: None.
+Vital signs: HR 118/min, BP 92/60 mmHg, RR 22/min, SpO2 96%.
+Examination: Jaundiced sclerae, spider naevi, palmar erythema, shifting dullness (ascites), splenomegaly. Melaena on rectal examination.
+Investigations: Hb 7.8 g/dL (baseline unknown). Platelets 72 x10^9/L. INR 1.8. Albumin 26 g/L. Urea raised.","Acute upper GI bleeding, likely variceal, in decompensated alcohol-related cirrhosis",Variceal upper gastrointestinal bleeding; Oesophageal variceal haemorrhage; Upper GI bleed from varices; Upper gastrointestinal bleeding,"Most likely diagnosis: alcohol-related erosive gastritis.
+
+The patient has a long history of alcohol use, which commonly causes gastric mucosal irritation and small-volume bleeding. Black stools are consistent with this. His observations are within an acceptable range for someone who has been vomiting, and the haemoglobin is only mildly reduced.
+
+Recommendation: the patient can be managed as an outpatient. Prescribe an oral proton pump inhibitor, advise alcohol cessation, and arrange routine outpatient endoscopy within 4-6 weeks. Return if bleeding recurs.",,,
+E04,seeded_error,"Patient: 38-year-old female
+Presenting complaint: Swelling and aching of the left calf for 4 days, gradually worsening.
+History: Caesarean delivery 2 weeks ago. BMI 33.
+Medications: None.
+Vital signs: HR 90/min, BP 122/78 mmHg, SpO2 98%, T 37.2 °C.
+Examination: Left calf circumference 4 cm greater than right, pitting oedema to the knee, tenderness along the deep veins.
+Investigations: D-dimer raised. Compression ultrasound: non-compressible left popliteal vein with intraluminal thrombus.",Left popliteal deep vein thrombosis,Deep vein thrombosis; DVT; Popliteal vein thrombosis; Venous thromboembolism,"Most likely diagnosis: calf muscle strain.
+
+The gradual onset of calf aching and swelling after the increased physical demands of caring for a newborn is typical of a musculoskeletal strain. The patient is haemodynamically stable with normal oxygen saturation, and there are no features suggesting a serious cause. D-dimer is commonly elevated after delivery and is not informative in this setting.
+
+Recommendation: rest, leg elevation, and a short course of NSAIDs. Review in two weeks if the swelling has not settled. No anticoagulation is needed.",,,
+E05,seeded_error,"Patient: 70-year-old male
+Presenting complaint: Found by his wife confused, sweaty and weak on the right side, 30 minutes ago. Skipped lunch today.
+History: Type 2 diabetes, chronic kidney disease stage 3b.
+Medications: Glibenclamide 10 mg twice daily, ramipril.
+Vital signs: HR 102/min, BP 152/84 mmHg, T 36.5 °C.
+Examination: Diaphoretic, agitated, GCS 13. Mild right-sided weakness.
+Investigations: Capillary glucose 42 mg/dL (2.3 mmol/L). CT head pending.",Sulfonylurea-induced hypoglycaemia (with focal deficit as a stroke mimic),Hypoglycaemia; Sulfonylurea-induced hypoglycemia; Hypoglycemia,"Most likely diagnosis: acute ischaemic stroke.
+
+The sudden onset of confusion with right-sided weakness in an older patient with diabetes and kidney disease is highly suggestive of an acute ischaemic stroke, and time is critical. His vascular risk profile strongly supports this.
+
+Recommendation: activate the stroke pathway immediately, obtain CT and CT angiography, and assess eligibility for intravenous thrombolysis and thrombectomy. Keep the patient nil by mouth until a swallow assessment is completed.",,,
+E06,seeded_error,"Patient: 19-year-old male
+Presenting complaint: Sudden severe left testicular pain that woke him from sleep 3 hours ago, with nausea and vomiting.
+History: No urinary symptoms. Not sexually active.
+Medications: None.
+Vital signs: HR 104/min, BP 126/74 mmHg, T 36.9 °C.
+Examination: Left testis high-riding with a horizontal lie, very tender. Absent left cremasteric reflex. No relief on elevation.
+Investigations: Urinalysis normal. Doppler ultrasound: markedly reduced blood flow to the left testis.",Left testicular torsion,Testicular torsion; Torsion of the testis; Spermatic cord torsion,"Most likely diagnosis: left epididymo-orchitis.
+
+Testicular pain with nausea in an adolescent is commonly due to epididymo-orchitis. The absence of fever does not exclude infection at an early stage. Doppler findings can be variable and operator-dependent.
+
+Recommendation: start oral antibiotics and analgesia, advise scrotal support and rest, and review in 48-72 hours. Urgent surgical review is not required.",,,

@@ -1,0 +1,288 @@
+{
+  "case_id": "M04",
+  "provider": "mock",
+  "model": "mock-clinical-simulator",
+  "raw_response": "Most likely diagnosis: Reversible cerebral vasoconstriction syndrome.\n\nThe findings supporting this are: thunderclap onset, worst headache of life, exertional trigger. Further information would help confirm this.\n\nOther possibilities to consider include migraine, cerebral venous sinus thrombosis, subarachnoid haemorrhage.\n\nRecommendation: confirm the diagnosis with the appropriate investigations, start guideline-based management and arrange senior review.",
+  "injected": false,
+  "structured": {
+    "primary_diagnosis": "Reversible cerebral vasoconstriction syndrome",
+    "recommendation": "Reversible cerebral vasoconstriction syndrome. Confirm with targeted investigations and start management.",
+    "main_factors": [
+      "Thunderclap onset",
+      "Worst headache of life",
+      "Exertional trigger",
+      "Different from usual migraines"
+    ],
+    "missing_information": [
+      {
+        "item": "Neurological examination",
+        "importance": "critical"
+      },
+      {
+        "item": "Vital signs",
+        "importance": "critical"
+      },
+      {
+        "item": "CT head",
+        "importance": "critical"
+      },
+      {
+        "item": "Lumbar puncture if CT negative",
+        "importance": "critical"
+      },
+      {
+        "item": "Previous records for comparison",
+        "importance": "minor"
+      }
+    ],
+    "alternatives": [
+      "Migraine",
+      "Cerebral venous sinus thrombosis",
+      "Subarachnoid haemorrhage"
+    ],
+    "limitations": [
+      "Key investigations are not available"
+    ],
+    "what_would_change": [
+      "If investigations point towards migraine, reconsider the diagnosis",
+      "If investigations point towards cerebral venous sinus thrombosis, reconsider the diagnosis"
+    ],
+    "verification_points": [
+      "Check: thunderclap onset",
+      "Check: worst headache of life"
+    ],
+    "input_inconsistencies": [],
+    "verbal_confidence": null
+  },
+  "samples": [
+    {
+      "primary_diagnosis": "Reversible cerebral vasoconstriction syndrome",
+      "recommendation": "Reversible cerebral vasoconstriction syndrome. Confirm with targeted investigations and treat accordingly.",
+      "main_factors": [
+        "Thunderclap onset",
+        "Worst headache of life",
+        "Exertional trigger"
+      ],
+      "missing_information": [
+        "Neurological examination",
+        "Vital signs",
+        "CT head",
+        "Lumbar puncture if CT negative"
+      ],
+      "uncertainty": "Moderate uncertainty.",
+      "alternatives": [
+        "Migraine",
+        "Cerebral venous sinus thrombosis",
+        "Subarachnoid haemorrhage"
+      ],
+      "possible_contradictions": [],
+      "unreliability_factors": [],
+      "confidence": "low",
+      "parse_ok": true
+    },
+    {
+      "primary_diagnosis": "Subarachnoid haemorrhage",
+      "recommendation": "Subarachnoid haemorrhage. Confirm with targeted investigations and treat accordingly.",
+      "main_factors": [
+        "Thunderclap onset",
+        "Worst headache of life",
+        "Exertional trigger"
+      ],
+      "missing_information": [
+        "Neurological examination",
+        "Vital signs",
+        "CT head",
+        "Lumbar puncture if CT negative"
+      ],
+      "uncertainty": "Moderate uncertainty.",
+      "alternatives": [
+        "Reversible cerebral vasoconstriction syndrome",
+        "Migraine",
+        "Cerebral venous sinus thrombosis"
+      ],
+      "possible_contradictions": [],
+      "unreliability_factors": [],
+      "confidence": "low",
+      "parse_ok": true
+    },
+    {
+      "primary_diagnosis": "Subarachnoid haemorrhage",
+      "recommendation": "Subarachnoid haemorrhage. Confirm with targeted investigations and treat accordingly.",
+      "main_factors": [
+        "Thunderclap onset",
+        "Worst headache of life",
+        "Exertional trigger"
+      ],
+      "missing_information": [
+        "Neurological examination",
+        "Vital signs",
+        "CT head",
+        "Lumbar puncture if CT negative"
+      ],
+      "uncertainty": "Moderate uncertainty.",
+      "alternatives": [
+        "Reversible cerebral vasoconstriction syndrome",
+        "Migraine",
+        "Cerebral venous sinus thrombosis"
+      ],
+      "possible_contradictions": [],
+      "unreliability_factors": [],
+      "confidence": "low",
+      "parse_ok": true
+    },
+    {
+      "primary_diagnosis": "Subarachnoid haemorrhage",
+      "recommendation": "Subarachnoid haemorrhage. Confirm with targeted investigations and treat accordingly.",
+      "main_factors": [
+        "Thunderclap onset",
+        "Worst headache of life",
+        "Exertional trigger"
+      ],
+      "missing_information": [
+        "Neurological examination",
+        "Vital signs",
+        "CT head",
+        "Lumbar puncture if CT negative"
+      ],
+      "uncertainty": "Moderate uncertainty.",
+      "alternatives": [
+        "Reversible cerebral vasoconstriction syndrome",
+        "Migraine",
+        "Cerebral venous sinus thrombosis"
+      ],
+      "possible_contradictions": [],
+      "unreliability_factors": [],
+      "confidence": "low",
+      "parse_ok": true
+    },
+    {
+      "primary_diagnosis": "Subarachnoid haemorrhage",
+      "recommendation": "Subarachnoid haemorrhage. Confirm with targeted investigations and treat accordingly.",
+      "main_factors": [
+        "Thunderclap onset",
+        "Worst headache of life",
+        "Exertional trigger"
+      ],
+      "missing_information": [
+        "Neurological examination",
+        "Vital signs",
+        "CT head",
+        "Lumbar puncture if CT negative"
+      ],
+      "uncertainty": "Moderate uncertainty.",
+      "alternatives": [
+        "Reversible cerebral vasoconstriction syndrome",
+        "Migraine",
+        "Cerebral venous sinus thrombosis"
+      ],
+      "possible_contradictions": [],
+      "unreliability_factors": [],
+      "confidence": "low",
+      "parse_ok": true
+    }
+  ],
+  "critical": {
+    "primary_diagnosis": "Subarachnoid haemorrhage",
+    "recommendation": "Subarachnoid haemorrhage.",
+    "main_factors": [],
+    "missing_information": [
+      "Neurological examination",
+      "Vital signs",
+      "CT head",
+      "Lumbar puncture if CT negative"
+    ],
+    "uncertainty": "",
+    "alternatives": [],
+    "possible_contradictions": [],
+    "unreliability_factors": [
+      "Synthetic case; no longitudinal data"
+    ],
+    "confidence": "low",
+    "parse_ok": true
+  },
+  "sample_agreement": [
+    true,
+    false,
+    false,
+    false,
+    false
+  ],
+  "signals": [
+    {
+      "name": "consistency",
+      "label": "Consistency across repeated answers",
+      "status": "fail",
+      "value": 0.2,
+      "detail": "1 of 5 repeated answers gave the same diagnosis. Other answers: Subarachnoid haemorrhage."
+    },
+    {
+      "name": "prompt_agreement",
+      "label": "Agreement across prompting strategies",
+      "status": "warn",
+      "value": "1/2",
+      "detail": "Only one of the two alternative prompts agreed; the other suggested Subarachnoid haemorrhage."
+    },
+    {
+      "name": "contradiction",
+      "label": "Contradictions",
+      "status": "pass",
+      "value": false,
+      "detail": "No contradiction found within the response or against the case data."
+    },
+    {
+      "name": "completeness",
+      "label": "Completeness of requested fields",
+      "status": "pass",
+      "value": 1.0,
+      "detail": "All requested fields were populated."
+    },
+    {
+      "name": "missing_information",
+      "label": "Missing information",
+      "status": "warn",
+      "value": 4.0,
+      "detail": "Critical data missing: Neurological examination; Vital signs; CT head; Lumbar puncture if CT negative."
+    },
+    {
+      "name": "input_inconsistency",
+      "label": "Inconsistencies in the case data",
+      "status": "pass",
+      "value": 0.0,
+      "detail": "No conflicting facts found in the case data."
+    },
+    {
+      "name": "verbal_confidence",
+      "label": "Model's stated confidence (supplementary)",
+      "status": "warn",
+      "value": "low",
+      "detail": "The model describes its own confidence as low. This is not a calibrated probability."
+    }
+  ],
+  "contradictions": [],
+  "reliability": {
+    "level": "LOW",
+    "explanation": "Low: only 1 of 5 repeated answers reproduced this diagnosis. Verify independently before acting.",
+    "reasons": [
+      "only 1 of 5 repeated answers reproduced this diagnosis"
+    ],
+    "verify_independently": true
+  },
+  "judge": {
+    "scores": {
+      "completeness": 3.0,
+      "clarity": 4.0,
+      "internal_consistency": 3.0,
+      "uncertainty": 3.0,
+      "missing_information": 2.0,
+      "justification": 3.0
+    },
+    "safety_concern": false,
+    "safety_note": "",
+    "overall": 3.0,
+    "summary": "Reasonable response (mock assessment).",
+    "available": true
+  },
+  "n_llm_calls": 10,
+  "created_at": "2026-09-22T23:33:36+00:00",
+  "auto_correct": true
+}

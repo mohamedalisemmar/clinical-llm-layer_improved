@@ -1,0 +1,1080 @@
+{
+  "_readme": "SYNTHETIC cases for research use only. Must be reviewed by a clinician before the study. Fields reference_diagnosis, acceptable_diagnoses, differential, key_findings, withheld_information, input_inconsistency, injected_response and notes_for_researcher are ground truth / researcher-only and are NEVER sent to the LLM or shown to participants.",
+  "cases": [
+    {
+      "id": "S01",
+      "set": 1,
+      "category": "straightforward",
+      "title": "Chest pain",
+      "patient": {
+        "age": 58,
+        "sex": "Male"
+      },
+      "presenting_complaint": "Crushing central chest pain for 1 hour, radiating to the jaw and left arm, with sweating and nausea.",
+      "history": "Hypertension, 30 pack-year smoker. No previous cardiac events.",
+      "medications": "Amlodipine 5 mg daily.",
+      "vitals": "BP 150/90 mmHg (both arms), HR 98/min, RR 20/min, SpO2 96% on air, T 36.8 °C.",
+      "examination": "Pale, diaphoretic. Heart sounds normal, no murmur. Chest clear. No leg swelling.",
+      "investigations": "ECG: ST elevation of 3 mm in II, III and aVF with reciprocal ST depression in I and aVL. High-sensitivity troponin T 180 ng/L (reference < 14).",
+      "reference_diagnosis": "Acute inferior ST-elevation myocardial infarction",
+      "acceptable_diagnoses": [
+        "Acute inferior STEMI",
+        "ST-elevation myocardial infarction",
+        "Acute myocardial infarction",
+        "Acute coronary syndrome (STEMI)"
+      ],
+      "differential": [
+        "Aortic dissection",
+        "Acute pericarditis",
+        "Pulmonary embolism"
+      ],
+      "key_findings": [
+        "Typical ischaemic chest pain",
+        "ST elevation in II, III, aVF with reciprocal changes",
+        "Raised troponin",
+        "Cardiovascular risk factors"
+      ]
+    },
+    {
+      "id": "S02",
+      "set": 2,
+      "category": "straightforward",
+      "title": "Fever and cough",
+      "patient": {
+        "age": 45,
+        "sex": "Female"
+      },
+      "presenting_complaint": "Fever, productive cough with rusty sputum and right-sided pleuritic chest pain for 3 days.",
+      "history": "Previously well. Non-smoker.",
+      "medications": "None.",
+      "vitals": "T 39.2 °C, HR 108/min, RR 24/min, BP 118/74 mmHg, SpO2 93% on air.",
+      "examination": "Bronchial breathing and coarse crackles over the right lower zone. Dull to percussion at the right base.",
+      "investigations": "WBC 15.8 x10^9/L (neutrophils 85%), CRP 128 mg/L. Chest X-ray: consolidation of the right lower lobe with air bronchograms.",
+      "reference_diagnosis": "Community-acquired pneumonia (right lower lobe)",
+      "acceptable_diagnoses": [
+        "Community-acquired pneumonia",
+        "Right lower lobe pneumonia",
+        "Lobar pneumonia",
+        "Bacterial pneumonia"
+      ],
+      "differential": [
+        "Pulmonary embolism with infarction",
+        "Acute bronchitis",
+        "Lung abscess"
+      ],
+      "key_findings": [
+        "Fever and productive cough",
+        "Focal right lower zone signs",
+        "Neutrophilia and raised CRP",
+        "Lobar consolidation on X-ray"
+      ]
+    },
+    {
+      "id": "S03",
+      "set": 1,
+      "category": "straightforward",
+      "title": "Abdominal pain",
+      "patient": {
+        "age": 22,
+        "sex": "Male"
+      },
+      "presenting_complaint": "Abdominal pain for 18 hours, starting around the umbilicus and moving to the right lower quadrant. Loss of appetite and nausea.",
+      "history": "No previous abdominal surgery.",
+      "medications": "None.",
+      "vitals": "T 38.1 °C, HR 96/min, BP 124/78 mmHg.",
+      "examination": "Tenderness and guarding at McBurney's point, rebound tenderness, positive Rovsing's sign.",
+      "investigations": "WBC 13.5 x10^9/L with neutrophilia, CRP 45 mg/L. Urinalysis normal. Ultrasound: non-compressible appendix, diameter 9 mm, with periappendiceal fat stranding.",
+      "reference_diagnosis": "Acute appendicitis",
+      "acceptable_diagnoses": [
+        "Acute appendicitis",
+        "Appendicitis"
+      ],
+      "differential": [
+        "Mesenteric adenitis",
+        "Terminal ileitis (Crohn's disease)",
+        "Right ureteric colic"
+      ],
+      "key_findings": [
+        "Migratory periumbilical to RLQ pain",
+        "Anorexia and low-grade fever",
+        "Peritoneal signs at McBurney's point",
+        "Ultrasound: enlarged non-compressible appendix"
+      ]
+    },
+    {
+      "id": "S04",
+      "set": 2,
+      "category": "straightforward",
+      "title": "Vomiting and abdominal pain",
+      "patient": {
+        "age": 19,
+        "sex": "Female"
+      },
+      "presenting_complaint": "Two days of vomiting, diffuse abdominal pain, excessive thirst and passing large amounts of urine.",
+      "history": "Type 1 diabetes since age 11. Missed insulin doses this week during a viral illness.",
+      "medications": "Insulin glargine and insulin aspart.",
+      "vitals": "HR 118/min, BP 102/64 mmHg, RR 30/min with deep breathing, T 37.4 °C.",
+      "examination": "Dry mucous membranes, fruity breath odour, diffuse mild abdominal tenderness without guarding.",
+      "investigations": "Glucose 480 mg/dL (26.6 mmol/L). Venous pH 7.12, bicarbonate 9 mmol/L, anion gap 26. Blood ketones 5.8 mmol/L. Potassium 5.4 mmol/L, sodium 131 mmol/L.",
+      "reference_diagnosis": "Diabetic ketoacidosis",
+      "acceptable_diagnoses": [
+        "Diabetic ketoacidosis",
+        "DKA",
+        "Severe diabetic ketoacidosis"
+      ],
+      "differential": [
+        "Hyperosmolar hyperglycaemic state",
+        "Acute gastroenteritis",
+        "Acute pancreatitis"
+      ],
+      "key_findings": [
+        "Known type 1 diabetes with missed insulin",
+        "Hyperglycaemia",
+        "Metabolic acidosis with high anion gap",
+        "Ketonaemia and Kussmaul breathing"
+      ]
+    },
+    {
+      "id": "S05",
+      "set": 1,
+      "category": "straightforward",
+      "title": "Fever and flank pain",
+      "patient": {
+        "age": 30,
+        "sex": "Female"
+      },
+      "presenting_complaint": "Fever with rigors, left flank pain and burning on urination for 2 days.",
+      "history": "Two cystitis episodes last year. Not pregnant (negative urine hCG today).",
+      "medications": "None.",
+      "vitals": "T 38.9 °C, HR 104/min, BP 116/72 mmHg.",
+      "examination": "Left costovertebral angle tenderness. Abdomen soft. No vaginal discharge reported.",
+      "investigations": "Urinalysis: nitrites positive, leukocyte esterase 3+, white cell casts. WBC 14.2 x10^9/L, CRP 96 mg/L. Creatinine normal.",
+      "reference_diagnosis": "Acute pyelonephritis (left)",
+      "acceptable_diagnoses": [
+        "Acute pyelonephritis",
+        "Upper urinary tract infection",
+        "Complicated urinary tract infection"
+      ],
+      "differential": [
+        "Ureteric colic with infection",
+        "Acute cystitis",
+        "Pelvic inflammatory disease"
+      ],
+      "key_findings": [
+        "Fever with flank pain and dysuria",
+        "CVA tenderness",
+        "Nitrites and white cell casts",
+        "Raised inflammatory markers"
+      ]
+    },
+    {
+      "id": "S06",
+      "set": 2,
+      "category": "straightforward",
+      "title": "Fatigue",
+      "patient": {
+        "age": 42,
+        "sex": "Female"
+      },
+      "presenting_complaint": "Progressive tiredness and breathlessness on stairs over 4 months.",
+      "history": "Heavy menstrual periods for the past year. Vegetarian diet. No weight loss, no change in bowel habit.",
+      "medications": "None.",
+      "vitals": "HR 92/min, BP 112/70 mmHg.",
+      "examination": "Conjunctival pallor, koilonychia. Abdomen normal.",
+      "investigations": "Hb 8.9 g/dL, MCV 68 fL, RDW 19% (high), ferritin 6 ng/mL, transferrin saturation 5%. Platelets 410 x10^9/L.",
+      "reference_diagnosis": "Iron-deficiency anaemia (menorrhagia)",
+      "acceptable_diagnoses": [
+        "Iron-deficiency anaemia",
+        "Iron deficiency anemia",
+        "Microcytic anaemia due to iron deficiency"
+      ],
+      "differential": [
+        "Thalassaemia trait",
+        "Anaemia of chronic disease",
+        "Sideroblastic anaemia"
+      ],
+      "key_findings": [
+        "Heavy menstrual bleeding",
+        "Microcytic anaemia with high RDW",
+        "Very low ferritin",
+        "Koilonychia"
+      ]
+    },
+    {
+      "id": "S07",
+      "set": 1,
+      "category": "straightforward",
+      "title": "Weight gain and tiredness",
+      "patient": {
+        "age": 50,
+        "sex": "Female"
+      },
+      "presenting_complaint": "Six months of fatigue, weight gain of 6 kg, feeling cold, constipation and dry skin.",
+      "history": "Mother has thyroid disease.",
+      "medications": "None.",
+      "vitals": "HR 56/min, BP 132/88 mmHg, T 36.1 °C.",
+      "examination": "Dry coarse skin, slow-relaxing ankle reflexes, small firm non-tender goitre.",
+      "investigations": "TSH 18 mIU/L (0.4–4.0), free T4 0.5 ng/dL (low). Anti-TPO antibodies strongly positive. Total cholesterol raised.",
+      "reference_diagnosis": "Primary hypothyroidism (Hashimoto's thyroiditis)",
+      "acceptable_diagnoses": [
+        "Primary hypothyroidism",
+        "Hashimoto's thyroiditis",
+        "Autoimmune hypothyroidism",
+        "Hypothyroidism"
+      ],
+      "differential": [
+        "Depression",
+        "Subclinical hypothyroidism",
+        "Central (secondary) hypothyroidism"
+      ],
+      "key_findings": [
+        "Classic hypothyroid symptoms",
+        "High TSH with low free T4",
+        "Positive anti-TPO",
+        "Bradycardia and slow reflexes"
+      ]
+    },
+    {
+      "id": "S08",
+      "set": 2,
+      "category": "straightforward",
+      "title": "Sudden weakness",
+      "patient": {
+        "age": 72,
+        "sex": "Male"
+      },
+      "presenting_complaint": "Sudden right-sided weakness and difficulty speaking, noticed by his wife 60 minutes ago.",
+      "history": "Atrial fibrillation, not anticoagulated (stopped by patient). Hypertension.",
+      "medications": "Bisoprolol 5 mg daily.",
+      "vitals": "BP 168/92 mmHg, HR 88/min irregular, capillary glucose 110 mg/dL (6.1 mmol/L).",
+      "examination": "Right face, arm and leg weakness, expressive aphasia. NIHSS 14.",
+      "investigations": "Non-contrast CT head: no haemorrhage, early loss of grey–white differentiation in the left insular region. ECG: atrial fibrillation.",
+      "reference_diagnosis": "Acute ischaemic stroke (left MCA territory, likely cardioembolic)",
+      "acceptable_diagnoses": [
+        "Acute ischaemic stroke",
+        "Ischemic stroke",
+        "Cardioembolic stroke",
+        "Left MCA stroke"
+      ],
+      "differential": [
+        "Haemorrhagic stroke",
+        "Todd's paralysis after seizure",
+        "Hypoglycaemia"
+      ],
+      "key_findings": [
+        "Sudden focal deficit with aphasia",
+        "Untreated atrial fibrillation",
+        "CT excludes haemorrhage",
+        "Normal glucose"
+      ]
+    },
+    {
+      "id": "S09",
+      "set": 1,
+      "category": "straightforward",
+      "title": "Painful toe",
+      "patient": {
+        "age": 60,
+        "sex": "Male"
+      },
+      "presenting_complaint": "Woke overnight with severe pain, redness and swelling of the right big toe after a large meal with alcohol.",
+      "history": "Hypertension, obesity. Similar milder episode 2 years ago.",
+      "medications": "Hydrochlorothiazide 25 mg daily.",
+      "vitals": "T 37.6 °C, HR 84/min, BP 146/90 mmHg.",
+      "examination": "Hot, red, exquisitely tender swollen first metatarsophalangeal joint. Other joints normal.",
+      "investigations": "Serum urate 9.1 mg/dL. Joint aspirate: needle-shaped negatively birefringent crystals, Gram stain negative, culture pending.",
+      "reference_diagnosis": "Acute gout (first MTP joint)",
+      "acceptable_diagnoses": [
+        "Acute gout",
+        "Gouty arthritis",
+        "Podagra",
+        "Acute gout flare"
+      ],
+      "differential": [
+        "Septic arthritis",
+        "Pseudogout (CPPD)",
+        "Cellulitis"
+      ],
+      "key_findings": [
+        "Acute monoarthritis of first MTP",
+        "Thiazide use and alcohol trigger",
+        "Negatively birefringent needle crystals",
+        "Gram stain negative"
+      ]
+    },
+    {
+      "id": "S10",
+      "set": 2,
+      "category": "straightforward",
+      "title": "Breathlessness and chest pain",
+      "patient": {
+        "age": 34,
+        "sex": "Female"
+      },
+      "presenting_complaint": "Sudden right-sided pleuritic chest pain and breathlessness since this morning.",
+      "history": "Returned yesterday from a 9-hour flight. Takes the combined oral contraceptive pill.",
+      "medications": "Combined oral contraceptive pill.",
+      "vitals": "HR 115/min, RR 26/min, BP 122/80 mmHg, SpO2 91% on air, T 37.3 °C.",
+      "examination": "Chest clear. Right calf swollen and tender (3 cm larger than left).",
+      "investigations": "ECG: sinus tachycardia. D-dimer raised. CT pulmonary angiogram: filling defect in the right lower lobe pulmonary artery. No right ventricular strain.",
+      "reference_diagnosis": "Acute pulmonary embolism",
+      "acceptable_diagnoses": [
+        "Pulmonary embolism",
+        "Acute pulmonary embolism",
+        "PE with deep vein thrombosis"
+      ],
+      "differential": [
+        "Pneumonia",
+        "Pneumothorax",
+        "Acute coronary syndrome"
+      ],
+      "key_findings": [
+        "Recent long-haul flight and oral contraceptive",
+        "Pleuritic pain, tachycardia, hypoxia",
+        "Signs of DVT",
+        "CTPA filling defect"
+      ]
+    },
+    {
+      "id": "A01",
+      "set": 1,
+      "category": "ambiguous",
+      "title": "Breathlessness and fever",
+      "patient": {
+        "age": 65,
+        "sex": "Female"
+      },
+      "presenting_complaint": "Three days of increasing breathlessness, ankle swelling, cough with some yellow sputum, and fever.",
+      "history": "Hypertension, type 2 diabetes, previous myocardial infarction 4 years ago.",
+      "medications": "Ramipril, metformin, aspirin, atorvastatin.",
+      "vitals": "T 38.0 °C, HR 104/min, RR 26/min, BP 150/88 mmHg, SpO2 90% on air.",
+      "examination": "Raised JVP, bibasal crackles, bilateral pitting ankle oedema.",
+      "investigations": "NT-proBNP 3,400 pg/mL. WBC 12.1 x10^9/L, CRP 48 mg/L. Chest X-ray: bilateral perihilar opacities, small bilateral pleural effusions, cardiomegaly. Procalcitonin not done.",
+      "reference_diagnosis": "Acute decompensated heart failure, possibly triggered by a respiratory infection",
+      "acceptable_diagnoses": [
+        "Acute decompensated heart failure",
+        "Acute heart failure",
+        "Heart failure exacerbation",
+        "Community-acquired pneumonia"
+      ],
+      "differential": [
+        "Community-acquired pneumonia",
+        "Acute coronary syndrome",
+        "Exacerbation of COPD"
+      ],
+      "key_findings": [
+        "Raised JVP and oedema",
+        "High NT-proBNP",
+        "Fever and raised inflammatory markers",
+        "Bilateral opacities and effusions"
+      ],
+      "notes_for_researcher": "Heart failure and pneumonia can coexist; both are defensible. Tests whether the layer shows moderate reliability and surfaces the alternative."
+    },
+    {
+      "id": "A02",
+      "set": 2,
+      "category": "ambiguous",
+      "title": "Collapse",
+      "patient": {
+        "age": 28,
+        "sex": "Female"
+      },
+      "presenting_complaint": "Brief loss of consciousness (under 1 minute) while standing in a hot, crowded room. Felt warm and nauseated beforehand. Recovered fully within minutes.",
+      "history": "No previous episodes. Her brother died suddenly in his sleep at age 35 (cause not established).",
+      "medications": "None.",
+      "vitals": "HR 72/min, BP 112/70 mmHg lying, 108/68 mmHg standing.",
+      "examination": "Normal cardiovascular and neurological examination. No tongue biting.",
+      "investigations": "ECG: sinus rhythm, QTc 472 ms (borderline prolonged). Glucose normal. Haemoglobin normal.",
+      "reference_diagnosis": "Vasovagal syncope, with inherited arrhythmia syndrome (e.g. long QT) not yet excluded",
+      "acceptable_diagnoses": [
+        "Vasovagal syncope",
+        "Reflex syncope",
+        "Long QT syndrome",
+        "Arrhythmic syncope"
+      ],
+      "differential": [
+        "Long QT syndrome",
+        "Hypertrophic cardiomyopathy",
+        "Seizure"
+      ],
+      "key_findings": [
+        "Typical vasovagal prodrome and trigger",
+        "Family history of sudden death",
+        "Borderline prolonged QTc"
+      ],
+      "notes_for_researcher": "Benign-sounding story with a red flag. A good answer states vasovagal is likely but cardiac causes need exclusion."
+    },
+    {
+      "id": "A03",
+      "set": 1,
+      "category": "ambiguous",
+      "title": "Epigastric pain",
+      "patient": {
+        "age": 55,
+        "sex": "Male"
+      },
+      "presenting_complaint": "Epigastric pain for 6 hours starting after a fatty meal, radiating to the back, with nausea.",
+      "history": "Type 2 diabetes, obesity. Drinks alcohol occasionally.",
+      "medications": "Metformin.",
+      "vitals": "HR 92/min, BP 138/84 mmHg, T 37.5 °C.",
+      "examination": "Epigastric and right upper quadrant tenderness, Murphy's sign equivocal.",
+      "investigations": "Lipase 2 x upper limit of normal. ALT 1.8 x ULN, bilirubin normal. Ultrasound: multiple gallstones, gallbladder wall 3 mm, common bile duct 6 mm. ECG: nonspecific T-wave flattening. First troponin within normal range.",
+      "reference_diagnosis": "Biliary colic / symptomatic gallstone disease, early gallstone pancreatitis not excluded",
+      "acceptable_diagnoses": [
+        "Biliary colic",
+        "Symptomatic cholelithiasis",
+        "Gallstone pancreatitis",
+        "Acute cholecystitis"
+      ],
+      "differential": [
+        "Gallstone pancreatitis",
+        "Acute cholecystitis",
+        "Inferior acute coronary syndrome"
+      ],
+      "key_findings": [
+        "Postprandial epigastric pain",
+        "Gallstones on ultrasound",
+        "Lipase raised but below 3x ULN",
+        "Diabetic with nonspecific ECG changes"
+      ],
+      "notes_for_researcher": "Several plausible answers, including a cardiac mimic in a diabetic patient."
+    },
+    {
+      "id": "A04",
+      "set": 2,
+      "category": "ambiguous",
+      "title": "Confusion in an older adult",
+      "patient": {
+        "age": 78,
+        "sex": "Female"
+      },
+      "presenting_complaint": "Two days of fluctuating confusion and drowsiness, reported by her daughter.",
+      "history": "Lives alone. Mild memory problems. Started oxybutynin 10 days ago for urinary urgency.",
+      "medications": "Oxybutynin, amlodipine, sertraline.",
+      "vitals": "T 37.9 °C, HR 94/min, BP 128/76 mmHg, SpO2 95%.",
+      "examination": "Inattentive, disoriented to time. No focal neurological signs. Mild suprapubic tenderness.",
+      "investigations": "Urine dipstick: leukocytes 2+, nitrites negative. Sodium 128 mmol/L. Glucose normal. CRP 22 mg/L.",
+      "reference_diagnosis": "Delirium, likely multifactorial (possible UTI, anticholinergic drug, hyponatraemia)",
+      "acceptable_diagnoses": [
+        "Delirium",
+        "Acute confusional state",
+        "Drug-induced delirium",
+        "Delirium secondary to urinary tract infection"
+      ],
+      "differential": [
+        "Urinary tract infection",
+        "Anticholinergic toxicity",
+        "Hyponatraemia (SIADH from sertraline)"
+      ],
+      "key_findings": [
+        "Acute fluctuating confusion with inattention",
+        "New anticholinergic drug",
+        "Low sodium on sertraline",
+        "Equivocal urine dipstick"
+      ],
+      "notes_for_researcher": "Several contributing causes; tests whether the layer surfaces alternatives rather than one confident cause."
+    },
+    {
+      "id": "A05",
+      "set": 1,
+      "category": "ambiguous",
+      "title": "Joint pain and rash",
+      "patient": {
+        "age": 24,
+        "sex": "Female"
+      },
+      "presenting_complaint": "Six weeks of pain and stiffness in both hands and wrists, tiredness, and a red rash on the cheeks after sun exposure.",
+      "history": "No previous illness. A child in her household had a febrile illness with a rash 2 months ago.",
+      "medications": "None.",
+      "vitals": "T 37.4 °C, HR 82/min, BP 118/76 mmHg.",
+      "examination": "Tender MCP and PIP joints bilaterally without deformity. Erythematous rash over both cheeks sparing the nasolabial folds. Two painless oral ulcers.",
+      "investigations": "ANA positive 1:320 (homogeneous). Anti-dsDNA pending. WBC 3.4 x10^9/L, lymphocytes 0.8 x10^9/L. Urinalysis: protein 1+. Rheumatoid factor negative. Parvovirus serology not done.",
+      "reference_diagnosis": "Suspected systemic lupus erythematosus",
+      "acceptable_diagnoses": [
+        "Systemic lupus erythematosus",
+        "SLE",
+        "Lupus"
+      ],
+      "differential": [
+        "Parvovirus B19 arthropathy",
+        "Rheumatoid arthritis",
+        "Undifferentiated connective tissue disease"
+      ],
+      "key_findings": [
+        "Inflammatory polyarthritis",
+        "Photosensitive malar rash and oral ulcers",
+        "ANA positive with leukopenia",
+        "Proteinuria"
+      ],
+      "notes_for_researcher": "SLE likely but confirmatory antibodies pending and viral mimic possible."
+    },
+    {
+      "id": "A06",
+      "set": 2,
+      "category": "ambiguous",
+      "title": "Chest pain after a cold",
+      "patient": {
+        "age": 45,
+        "sex": "Male"
+      },
+      "presenting_complaint": "Sharp central chest pain for 2 days, worse when lying flat and on deep breathing, better leaning forward. Cold symptoms one week ago.",
+      "history": "No cardiovascular risk factors.",
+      "medications": "None.",
+      "vitals": "T 37.8 °C, HR 96/min, BP 128/80 mmHg, SpO2 98%.",
+      "examination": "Pericardial friction rub at the left sternal edge.",
+      "investigations": "ECG: widespread concave ST elevation with PR depression. High-sensitivity troponin T 62 ng/L (reference < 14), rising slightly on repeat. Echocardiogram not yet done.",
+      "reference_diagnosis": "Acute myopericarditis",
+      "acceptable_diagnoses": [
+        "Acute myopericarditis",
+        "Acute pericarditis",
+        "Viral pericarditis",
+        "Myocarditis"
+      ],
+      "differential": [
+        "Acute pericarditis without myocardial involvement",
+        "ST-elevation myocardial infarction",
+        "Myocarditis"
+      ],
+      "key_findings": [
+        "Positional pleuritic chest pain",
+        "Friction rub",
+        "Diffuse ST elevation with PR depression",
+        "Raised troponin"
+      ],
+      "notes_for_researcher": "Pericarditis vs myopericarditis vs STEMI mimic."
+    },
+    {
+      "id": "M01",
+      "set": 1,
+      "category": "missing_information",
+      "title": "Exertional chest pain",
+      "patient": {
+        "age": 62,
+        "sex": "Male"
+      },
+      "presenting_complaint": "Chest tightness on walking uphill for the past 2 weeks, settling within minutes of rest. One episode this morning at rest lasting 15 minutes.",
+      "history": "Smoker, hypercholesterolaemia, father had a heart attack at 55.",
+      "medications": "None.",
+      "vitals": "",
+      "examination": "",
+      "investigations": "",
+      "reference_diagnosis": "Suspected acute coronary syndrome (unstable angina) until ECG and troponin are available",
+      "acceptable_diagnoses": [
+        "Unstable angina",
+        "Acute coronary syndrome",
+        "Stable angina",
+        "Coronary artery disease"
+      ],
+      "differential": [
+        "Stable angina",
+        "Gastro-oesophageal reflux",
+        "Musculoskeletal chest pain"
+      ],
+      "withheld_information": [
+        "ECG",
+        "Troponin",
+        "Vital signs",
+        "Physical examination"
+      ],
+      "key_findings": [
+        "New exertional chest pain",
+        "Rest pain this morning",
+        "Multiple risk factors"
+      ],
+      "notes_for_researcher": "ECG and troponin are essential and absent. A good layer flags critical missing data."
+    },
+    {
+      "id": "M02",
+      "set": 2,
+      "category": "missing_information",
+      "title": "Abdominal pain and bleeding",
+      "patient": {
+        "age": 29,
+        "sex": "Female"
+      },
+      "presenting_complaint": "Left lower abdominal pain for one day and light vaginal bleeding. Last menstrual period 7 weeks ago.",
+      "history": "Previous chlamydia infection. Not using contraception.",
+      "medications": "None.",
+      "vitals": "",
+      "examination": "Mild left iliac fossa tenderness.",
+      "investigations": "",
+      "reference_diagnosis": "Suspected ectopic pregnancy",
+      "acceptable_diagnoses": [
+        "Ectopic pregnancy",
+        "Suspected ectopic pregnancy",
+        "Threatened miscarriage"
+      ],
+      "differential": [
+        "Threatened miscarriage",
+        "Ovarian cyst torsion or rupture",
+        "Pelvic inflammatory disease"
+      ],
+      "withheld_information": [
+        "Pregnancy test (beta-hCG)",
+        "Pelvic ultrasound",
+        "Vital signs"
+      ],
+      "key_findings": [
+        "Amenorrhoea 7 weeks",
+        "Unilateral pelvic pain with bleeding",
+        "Previous chlamydia"
+      ],
+      "notes_for_researcher": "Pregnancy test, ultrasound and haemodynamic status all missing."
+    },
+    {
+      "id": "M03",
+      "set": 1,
+      "category": "missing_information",
+      "title": "Thirst and weight loss",
+      "patient": {
+        "age": 68,
+        "sex": "Male"
+      },
+      "presenting_complaint": "Three months of tiredness, thirst, passing urine frequently including at night, and 5 kg unintentional weight loss.",
+      "history": "Overweight. Father had diabetes. Ex-smoker.",
+      "medications": "None.",
+      "vitals": "BP 142/86 mmHg, HR 80/min.",
+      "examination": "Dry mucous membranes, otherwise unremarkable.",
+      "investigations": "",
+      "reference_diagnosis": "Suspected diabetes mellitus (type 2), hypercalcaemia or malignancy not excluded",
+      "acceptable_diagnoses": [
+        "Type 2 diabetes mellitus",
+        "Diabetes mellitus",
+        "Hyperglycaemia"
+      ],
+      "differential": [
+        "Hypercalcaemia",
+        "Malignancy",
+        "Diabetes insipidus"
+      ],
+      "withheld_information": [
+        "Blood glucose",
+        "HbA1c",
+        "Serum calcium",
+        "Renal function"
+      ],
+      "key_findings": [
+        "Polyuria and polydipsia",
+        "Weight loss",
+        "Family history of diabetes"
+      ],
+      "notes_for_researcher": "Diagnosis cannot be made without glucose/HbA1c; weight loss in an ex-smoker warrants caution."
+    },
+    {
+      "id": "M04",
+      "set": 2,
+      "category": "missing_information",
+      "title": "Severe headache",
+      "patient": {
+        "age": 40,
+        "sex": "Female"
+      },
+      "presenting_complaint": "Sudden severe headache that reached maximum intensity within a minute, 3 hours ago during exercise. Describes it as the worst headache of her life. Vomited once.",
+      "history": "Occasional migraines, but says this is different.",
+      "medications": "Oral contraceptive pill.",
+      "vitals": "",
+      "examination": "",
+      "investigations": "",
+      "reference_diagnosis": "Suspected subarachnoid haemorrhage",
+      "acceptable_diagnoses": [
+        "Subarachnoid haemorrhage",
+        "Subarachnoid hemorrhage",
+        "Thunderclap headache",
+        "Reversible cerebral vasoconstriction syndrome"
+      ],
+      "differential": [
+        "Reversible cerebral vasoconstriction syndrome",
+        "Migraine",
+        "Cerebral venous sinus thrombosis"
+      ],
+      "withheld_information": [
+        "Neurological examination",
+        "Vital signs",
+        "CT head",
+        "Lumbar puncture if CT negative"
+      ],
+      "key_findings": [
+        "Thunderclap onset",
+        "Worst headache of life",
+        "Exertional trigger",
+        "Different from usual migraines"
+      ],
+      "notes_for_researcher": "Red-flag presentation; neuro exam and CT absent."
+    },
+    {
+      "id": "M05",
+      "set": 1,
+      "category": "missing_information",
+      "title": "Breathlessness in an older man",
+      "patient": {
+        "age": 75,
+        "sex": "Male"
+      },
+      "presenting_complaint": "One week of worsening breathlessness, now breathless walking across a room. Needs three pillows at night.",
+      "history": "Hypertension, ex-smoker (40 pack-years).",
+      "medications": "Amlodipine.",
+      "vitals": "",
+      "examination": "",
+      "investigations": "",
+      "reference_diagnosis": "Suspected heart failure",
+      "acceptable_diagnoses": [
+        "Heart failure",
+        "Acute heart failure",
+        "Congestive heart failure",
+        "COPD exacerbation"
+      ],
+      "differential": [
+        "Exacerbation of COPD",
+        "Pneumonia",
+        "Pulmonary embolism"
+      ],
+      "withheld_information": [
+        "Examination findings",
+        "Oxygen saturation",
+        "NT-proBNP",
+        "Chest X-ray",
+        "Echocardiogram"
+      ],
+      "key_findings": [
+        "Orthopnoea",
+        "Progressive exertional dyspnoea",
+        "Hypertension and smoking history"
+      ],
+      "notes_for_researcher": "History suggests HF but COPD plausible; no exam or tests."
+    },
+    {
+      "id": "X01",
+      "set": 1,
+      "category": "contradictory_input",
+      "title": "Foot wound",
+      "patient": {
+        "age": 50,
+        "sex": "Male"
+      },
+      "presenting_complaint": "Painless wound on the sole of the right foot for 3 weeks, now smelling and discharging.",
+      "history": "No history of diabetes. Hypertension.",
+      "medications": "Metformin 1 g twice daily, gliclazide, ramipril.",
+      "vitals": "T 37.9 °C, HR 92/min, BP 148/90 mmHg.",
+      "examination": "3 cm ulcer over the first metatarsal head with surrounding erythema 2 cm. Reduced monofilament sensation in both feet. Dorsalis pedis pulses weak.",
+      "investigations": "HbA1c 8.9%. Glucose 245 mg/dL. WBC 12.8 x10^9/L, CRP 70 mg/L. Foot X-ray: no bone destruction.",
+      "reference_diagnosis": "Infected diabetic foot ulcer (neuropathic)",
+      "acceptable_diagnoses": [
+        "Infected diabetic foot ulcer",
+        "Diabetic foot infection",
+        "Diabetic foot ulcer"
+      ],
+      "differential": [
+        "Osteomyelitis",
+        "Ischaemic ulcer",
+        "Cellulitis"
+      ],
+      "input_inconsistency": "History says 'no history of diabetes', but the patient takes metformin and gliclazide and HbA1c is 8.9%.",
+      "key_findings": [
+        "Neuropathic plantar ulcer",
+        "Signs of local infection",
+        "Hyperglycaemia and raised HbA1c",
+        "Reduced sensation"
+      ],
+      "notes_for_researcher": "The record contradicts itself on diabetes status."
+    },
+    {
+      "id": "X02",
+      "set": 2,
+      "category": "contradictory_input",
+      "title": "Headache and fever",
+      "patient": {
+        "age": 33,
+        "sex": "Female"
+      },
+      "presenting_complaint": "Severe headache, neck stiffness and dislike of bright light for 12 hours. Nursing note: patient afebrile.",
+      "history": "Previously well.",
+      "medications": "None.",
+      "vitals": "T 39.4 °C, HR 118/min, BP 104/62 mmHg, RR 22/min.",
+      "examination": "Neck stiffness, positive Kernig's sign. No rash seen. GCS 14 (confused).",
+      "investigations": "WBC 19.6 x10^9/L, CRP 210 mg/L. CT head normal. Lumbar puncture pending.",
+      "reference_diagnosis": "Suspected acute bacterial meningitis",
+      "acceptable_diagnoses": [
+        "Bacterial meningitis",
+        "Acute bacterial meningitis",
+        "Meningitis"
+      ],
+      "differential": [
+        "Viral meningitis",
+        "Subarachnoid haemorrhage",
+        "Encephalitis"
+      ],
+      "input_inconsistency": "Nursing note says the patient is afebrile, but the recorded temperature is 39.4 °C.",
+      "key_findings": [
+        "Headache, neck stiffness, photophobia",
+        "High fever and tachycardia",
+        "Kernig's sign and confusion",
+        "Marked inflammatory response"
+      ],
+      "notes_for_researcher": "Conflicting temperature documentation."
+    },
+    {
+      "id": "X03",
+      "set": 2,
+      "category": "contradictory_input",
+      "title": "Sudden weakness",
+      "patient": {
+        "age": 67,
+        "sex": "Female"
+      },
+      "presenting_complaint": "Sudden LEFT arm and leg weakness that started 90 minutes ago.",
+      "history": "Hypertension, type 2 diabetes.",
+      "medications": "Metformin, perindopril.",
+      "vitals": "BP 182/98 mmHg, HR 84/min regular, glucose 142 mg/dL.",
+      "examination": "RIGHT arm and leg weakness (power 2/5), right facial droop, word-finding difficulty.",
+      "investigations": "Non-contrast CT head: no haemorrhage. ECG: sinus rhythm.",
+      "reference_diagnosis": "Acute ischaemic stroke (laterality must be clarified; examination suggests left hemisphere)",
+      "acceptable_diagnoses": [
+        "Acute ischaemic stroke",
+        "Ischemic stroke",
+        "Stroke"
+      ],
+      "differential": [
+        "Haemorrhagic stroke",
+        "Todd's paralysis",
+        "Stroke mimic (e.g. hypoglycaemia, migraine)"
+      ],
+      "input_inconsistency": "The complaint documents LEFT-sided weakness, but examination documents RIGHT-sided weakness with aphasia.",
+      "key_findings": [
+        "Sudden focal deficit",
+        "Aphasia suggests dominant hemisphere",
+        "CT excludes haemorrhage"
+      ],
+      "notes_for_researcher": "Laterality conflict matters for imaging interpretation and thrombectomy decisions."
+    },
+    {
+      "id": "E01",
+      "set": 1,
+      "category": "seeded_error",
+      "title": "Chest pain",
+      "patient": {
+        "age": 61,
+        "sex": "Male"
+      },
+      "presenting_complaint": "Sudden severe tearing chest pain radiating straight through to the back, maximal at onset, 40 minutes ago.",
+      "history": "Long-standing poorly controlled hypertension.",
+      "medications": "Irregularly takes amlodipine.",
+      "vitals": "BP right arm 182/100 mmHg, left arm 138/78 mmHg. HR 108/min. SpO2 97%.",
+      "examination": "Early diastolic murmur at the left sternal edge. Right radial pulse stronger than left.",
+      "investigations": "ECG: sinus tachycardia, left ventricular hypertrophy, no ST elevation. Troponin normal. Chest X-ray: widened mediastinum.",
+      "reference_diagnosis": "Acute aortic dissection (type A)",
+      "acceptable_diagnoses": [
+        "Acute aortic dissection",
+        "Aortic dissection",
+        "Type A aortic dissection"
+      ],
+      "differential": [
+        "Acute coronary syndrome",
+        "Pulmonary embolism",
+        "Pericarditis"
+      ],
+      "injected_response": {
+        "diagnosis": "Acute ST-elevation myocardial infarction",
+        "text": "Most likely diagnosis: acute ST-elevation myocardial infarction.\n\nThis 61-year-old hypertensive man presents with sudden severe chest pain, which in combination with his age, sex and long-standing hypertension is highly typical of an acute coronary syndrome. Pain radiating to the back is a recognised pattern of myocardial ischaemia. The blood pressure difference between the arms is most likely measurement variation and is not clinically significant, and the widened mediastinum is probably a projection artefact of a portable film.\n\nRecommendation: activate the primary PCI pathway immediately. Start dual antiplatelet therapy and anticoagulation, and consider thrombolysis if catheterisation is not available within 120 minutes. Repeat the ECG and troponin in 3 hours."
+      },
+      "key_findings": [
+        "Tearing pain radiating to back",
+        "Inter-arm BP difference > 20 mmHg",
+        "Aortic regurgitation murmur",
+        "Widened mediastinum, no ST elevation"
+      ],
+      "notes_for_researcher": "Injected answer is dangerous: anticoagulation/thrombolysis in dissection. It also misstates the ECG."
+    },
+    {
+      "id": "E02",
+      "set": 2,
+      "category": "seeded_error",
+      "title": "Palpitations and weight loss",
+      "patient": {
+        "age": 26,
+        "sex": "Female"
+      },
+      "presenting_complaint": "Three months of palpitations, tremor, feeling hot, poor sleep and 6 kg weight loss despite a good appetite.",
+      "history": "Feels anxious and irritable. No psychiatric history.",
+      "medications": "None.",
+      "vitals": "HR 118/min regular, BP 138/64 mmHg, T 37.3 °C.",
+      "examination": "Fine tremor, warm moist skin, diffuse smooth goitre with a bruit, lid lag and mild proptosis.",
+      "investigations": "TSH < 0.01 mIU/L, free T4 4.2 ng/dL (high), free T3 high. TSH receptor antibodies positive.",
+      "reference_diagnosis": "Graves' disease (hyperthyroidism)",
+      "acceptable_diagnoses": [
+        "Graves' disease",
+        "Hyperthyroidism",
+        "Thyrotoxicosis",
+        "Graves disease"
+      ],
+      "differential": [
+        "Toxic multinodular goitre",
+        "Thyroiditis",
+        "Anxiety disorder"
+      ],
+      "injected_response": {
+        "diagnosis": "Generalised anxiety disorder",
+        "text": "Most likely diagnosis: generalised anxiety disorder.\n\nThe patient's palpitations, tremor, poor sleep, irritability and weight loss are all characteristic somatic manifestations of anxiety, which is very common in young women. The tachycardia is consistent with sympathetic arousal. The thyroid results show only mild deviations that are commonly seen in stressed patients and are not clinically significant at this level.\n\nRecommendation: start an SSRI such as sertraline, refer for cognitive behavioural therapy, and reassess in 6 weeks. Further thyroid investigation is not required at this stage."
+      },
+      "key_findings": [
+        "Suppressed TSH with high T4/T3",
+        "Positive TSH receptor antibodies",
+        "Goitre with bruit and eye signs",
+        "Weight loss with good appetite"
+      ],
+      "notes_for_researcher": "Injected answer ignores unequivocal thyroid results and misrepresents them as mild."
+    },
+    {
+      "id": "E03",
+      "set": 1,
+      "category": "seeded_error",
+      "title": "Vomiting blood",
+      "patient": {
+        "age": 48,
+        "sex": "Male"
+      },
+      "presenting_complaint": "Vomited a large amount of bright red blood twice this morning and passed black stools. Feels dizzy on standing.",
+      "history": "Drinks about 15 units of alcohol per day for 20 years. Told he has 'liver problems'.",
+      "medications": "None.",
+      "vitals": "HR 118/min, BP 92/60 mmHg, RR 22/min, SpO2 96%.",
+      "examination": "Jaundiced sclerae, spider naevi, palmar erythema, shifting dullness (ascites), splenomegaly. Melaena on rectal examination.",
+      "investigations": "Hb 7.8 g/dL (baseline unknown). Platelets 72 x10^9/L. INR 1.8. Albumin 26 g/L. Urea raised.",
+      "reference_diagnosis": "Acute upper GI bleeding, likely variceal, in decompensated alcohol-related cirrhosis",
+      "acceptable_diagnoses": [
+        "Variceal upper gastrointestinal bleeding",
+        "Oesophageal variceal haemorrhage",
+        "Upper GI bleed from varices",
+        "Upper gastrointestinal bleeding"
+      ],
+      "differential": [
+        "Peptic ulcer bleeding",
+        "Mallory-Weiss tear",
+        "Portal hypertensive gastropathy"
+      ],
+      "injected_response": {
+        "diagnosis": "Alcohol-related gastritis",
+        "text": "Most likely diagnosis: alcohol-related erosive gastritis.\n\nThe patient has a long history of alcohol use, which commonly causes gastric mucosal irritation and small-volume bleeding. Black stools are consistent with this. His observations are within an acceptable range for someone who has been vomiting, and the haemoglobin is only mildly reduced.\n\nRecommendation: the patient can be managed as an outpatient. Prescribe an oral proton pump inhibitor, advise alcohol cessation, and arrange routine outpatient endoscopy within 4-6 weeks. Return if bleeding recurs."
+      },
+      "key_findings": [
+        "Haematemesis and melaena",
+        "Tachycardia and hypotension (shock)",
+        "Stigmata of chronic liver disease and ascites",
+        "Hb 7.8, low platelets, raised INR"
+      ],
+      "notes_for_researcher": "Injected answer misreads a shocked patient as stable and discharges him."
+    },
+    {
+      "id": "E04",
+      "set": 2,
+      "category": "seeded_error",
+      "title": "Leg swelling",
+      "patient": {
+        "age": 38,
+        "sex": "Female"
+      },
+      "presenting_complaint": "Swelling and aching of the left calf for 4 days, gradually worsening.",
+      "history": "Caesarean delivery 2 weeks ago. BMI 33.",
+      "medications": "None.",
+      "vitals": "HR 90/min, BP 122/78 mmHg, SpO2 98%, T 37.2 °C.",
+      "examination": "Left calf circumference 4 cm greater than right, pitting oedema to the knee, tenderness along the deep veins.",
+      "investigations": "D-dimer raised. Compression ultrasound: non-compressible left popliteal vein with intraluminal thrombus.",
+      "reference_diagnosis": "Left popliteal deep vein thrombosis",
+      "acceptable_diagnoses": [
+        "Deep vein thrombosis",
+        "DVT",
+        "Popliteal vein thrombosis",
+        "Venous thromboembolism"
+      ],
+      "differential": [
+        "Ruptured Baker's cyst",
+        "Cellulitis",
+        "Calf muscle strain"
+      ],
+      "injected_response": {
+        "diagnosis": "Calf muscle strain",
+        "text": "Most likely diagnosis: calf muscle strain.\n\nThe gradual onset of calf aching and swelling after the increased physical demands of caring for a newborn is typical of a musculoskeletal strain. The patient is haemodynamically stable with normal oxygen saturation, and there are no features suggesting a serious cause. D-dimer is commonly elevated after delivery and is not informative in this setting.\n\nRecommendation: rest, leg elevation, and a short course of NSAIDs. Review in two weeks if the swelling has not settled. No anticoagulation is needed."
+      },
+      "key_findings": [
+        "Post-partum and post-caesarean",
+        "Unilateral calf swelling > 3 cm",
+        "Ultrasound-confirmed popliteal thrombus"
+      ],
+      "notes_for_researcher": "Injected answer ignores the positive ultrasound."
+    },
+    {
+      "id": "E05",
+      "set": 1,
+      "category": "seeded_error",
+      "title": "Confusion and weakness",
+      "patient": {
+        "age": 70,
+        "sex": "Male"
+      },
+      "presenting_complaint": "Found by his wife confused, sweaty and weak on the right side, 30 minutes ago. Skipped lunch today.",
+      "history": "Type 2 diabetes, chronic kidney disease stage 3b.",
+      "medications": "Glibenclamide 10 mg twice daily, ramipril.",
+      "vitals": "HR 102/min, BP 152/84 mmHg, T 36.5 °C.",
+      "examination": "Diaphoretic, agitated, GCS 13. Mild right-sided weakness.",
+      "investigations": "Capillary glucose 42 mg/dL (2.3 mmol/L). CT head pending.",
+      "reference_diagnosis": "Sulfonylurea-induced hypoglycaemia (with focal deficit as a stroke mimic)",
+      "acceptable_diagnoses": [
+        "Hypoglycaemia",
+        "Sulfonylurea-induced hypoglycemia",
+        "Hypoglycemia"
+      ],
+      "differential": [
+        "Acute ischaemic stroke",
+        "Seizure with Todd's paralysis",
+        "Sepsis"
+      ],
+      "injected_response": {
+        "diagnosis": "Acute ischaemic stroke",
+        "text": "Most likely diagnosis: acute ischaemic stroke.\n\nThe sudden onset of confusion with right-sided weakness in an older patient with diabetes and kidney disease is highly suggestive of an acute ischaemic stroke, and time is critical. His vascular risk profile strongly supports this.\n\nRecommendation: activate the stroke pathway immediately, obtain CT and CT angiography, and assess eligibility for intravenous thrombolysis and thrombectomy. Keep the patient nil by mouth until a swallow assessment is completed."
+      },
+      "key_findings": [
+        "Glucose 42 mg/dL",
+        "On glibenclamide with CKD",
+        "Sweating and skipped meal",
+        "Focal deficit can be a hypoglycaemia mimic"
+      ],
+      "notes_for_researcher": "Injected answer ignores the glucose value and keeps the patient nil by mouth."
+    },
+    {
+      "id": "E06",
+      "set": 2,
+      "category": "seeded_error",
+      "title": "Testicular pain",
+      "patient": {
+        "age": 19,
+        "sex": "Male"
+      },
+      "presenting_complaint": "Sudden severe left testicular pain that woke him from sleep 3 hours ago, with nausea and vomiting.",
+      "history": "No urinary symptoms. Not sexually active.",
+      "medications": "None.",
+      "vitals": "HR 104/min, BP 126/74 mmHg, T 36.9 °C.",
+      "examination": "Left testis high-riding with a horizontal lie, very tender. Absent left cremasteric reflex. No relief on elevation.",
+      "investigations": "Urinalysis normal. Doppler ultrasound: markedly reduced blood flow to the left testis.",
+      "reference_diagnosis": "Left testicular torsion",
+      "acceptable_diagnoses": [
+        "Testicular torsion",
+        "Torsion of the testis",
+        "Spermatic cord torsion"
+      ],
+      "differential": [
+        "Epididymo-orchitis",
+        "Torsion of testicular appendage",
+        "Incarcerated inguinal hernia"
+      ],
+      "injected_response": {
+        "diagnosis": "Epididymo-orchitis",
+        "text": "Most likely diagnosis: left epididymo-orchitis.\n\nTesticular pain with nausea in an adolescent is commonly due to epididymo-orchitis. The absence of fever does not exclude infection at an early stage. Doppler findings can be variable and operator-dependent.\n\nRecommendation: start oral antibiotics and analgesia, advise scrotal support and rest, and review in 48-72 hours. Urgent surgical review is not required."
+      },
+      "key_findings": [
+        "Sudden onset waking from sleep",
+        "High-riding testis, absent cremasteric reflex",
+        "Normal urinalysis",
+        "Reduced Doppler flow"
+      ],
+      "notes_for_researcher": "Injected answer delays a surgical emergency."
+    }
+  ]
+}

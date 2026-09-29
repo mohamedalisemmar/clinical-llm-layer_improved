@@ -1,0 +1,279 @@
+{
+  "case_id": "M02",
+  "provider": "mock",
+  "model": "mock-clinical-simulator",
+  "raw_response": "Most likely diagnosis: Ectopic pregnancy.\n\nThe findings supporting this are: amenorrhoea 7 weeks, unilateral pelvic pain with bleeding, previous chlamydia. Further information would help confirm this.\n\nOther possibilities to consider include threatened miscarriage, ovarian cyst torsion or rupture, pelvic inflammatory disease.\n\nRecommendation: confirm the diagnosis with the appropriate investigations, start guideline-based management and arrange senior review.",
+  "injected": false,
+  "structured": {
+    "primary_diagnosis": "Ectopic pregnancy",
+    "recommendation": "Ectopic pregnancy. Confirm with targeted investigations and start management.",
+    "main_factors": [
+      "Amenorrhoea 7 weeks",
+      "Unilateral pelvic pain with bleeding",
+      "Previous chlamydia"
+    ],
+    "missing_information": [
+      {
+        "item": "Pregnancy test (beta-hCG)",
+        "importance": "critical"
+      },
+      {
+        "item": "Pelvic ultrasound",
+        "importance": "critical"
+      },
+      {
+        "item": "Vital signs",
+        "importance": "critical"
+      },
+      {
+        "item": "Previous records for comparison",
+        "importance": "minor"
+      }
+    ],
+    "alternatives": [
+      "Threatened miscarriage",
+      "Ovarian cyst torsion or rupture",
+      "Pelvic inflammatory disease"
+    ],
+    "limitations": [
+      "Key investigations are not available"
+    ],
+    "what_would_change": [
+      "If investigations point towards threatened miscarriage, reconsider the diagnosis",
+      "If investigations point towards ovarian cyst torsion or rupture, reconsider the diagnosis"
+    ],
+    "verification_points": [
+      "Check: amenorrhoea 7 weeks",
+      "Check: unilateral pelvic pain with bleeding"
+    ],
+    "input_inconsistencies": [],
+    "verbal_confidence": null
+  },
+  "samples": [
+    {
+      "primary_diagnosis": "Ectopic pregnancy",
+      "recommendation": "Ectopic pregnancy. Confirm with targeted investigations and treat accordingly.",
+      "main_factors": [
+        "Amenorrhoea 7 weeks",
+        "Unilateral pelvic pain with bleeding",
+        "Previous chlamydia"
+      ],
+      "missing_information": [
+        "Pregnancy test (beta-hCG)",
+        "Pelvic ultrasound",
+        "Vital signs"
+      ],
+      "uncertainty": "Moderate uncertainty.",
+      "alternatives": [
+        "Threatened miscarriage",
+        "Ovarian cyst torsion or rupture",
+        "Pelvic inflammatory disease"
+      ],
+      "possible_contradictions": [],
+      "unreliability_factors": [],
+      "confidence": "low",
+      "parse_ok": true
+    },
+    {
+      "primary_diagnosis": "Ectopic pregnancy",
+      "recommendation": "Ectopic pregnancy. Confirm with targeted investigations and treat accordingly.",
+      "main_factors": [
+        "Amenorrhoea 7 weeks",
+        "Unilateral pelvic pain with bleeding",
+        "Previous chlamydia"
+      ],
+      "missing_information": [
+        "Pregnancy test (beta-hCG)",
+        "Pelvic ultrasound",
+        "Vital signs"
+      ],
+      "uncertainty": "Moderate uncertainty.",
+      "alternatives": [
+        "Threatened miscarriage",
+        "Ovarian cyst torsion or rupture",
+        "Pelvic inflammatory disease"
+      ],
+      "possible_contradictions": [],
+      "unreliability_factors": [],
+      "confidence": "low",
+      "parse_ok": true
+    },
+    {
+      "primary_diagnosis": "Ectopic pregnancy",
+      "recommendation": "Ectopic pregnancy. Confirm with targeted investigations and treat accordingly.",
+      "main_factors": [
+        "Amenorrhoea 7 weeks",
+        "Unilateral pelvic pain with bleeding",
+        "Previous chlamydia"
+      ],
+      "missing_information": [
+        "Pregnancy test (beta-hCG)",
+        "Pelvic ultrasound",
+        "Vital signs"
+      ],
+      "uncertainty": "Moderate uncertainty.",
+      "alternatives": [
+        "Threatened miscarriage",
+        "Ovarian cyst torsion or rupture",
+        "Pelvic inflammatory disease"
+      ],
+      "possible_contradictions": [],
+      "unreliability_factors": [],
+      "confidence": "low",
+      "parse_ok": true
+    },
+    {
+      "primary_diagnosis": "Threatened miscarriage",
+      "recommendation": "Threatened miscarriage. Confirm with targeted investigations and treat accordingly.",
+      "main_factors": [
+        "Amenorrhoea 7 weeks",
+        "Unilateral pelvic pain with bleeding",
+        "Previous chlamydia"
+      ],
+      "missing_information": [
+        "Pregnancy test (beta-hCG)",
+        "Pelvic ultrasound",
+        "Vital signs"
+      ],
+      "uncertainty": "Moderate uncertainty.",
+      "alternatives": [
+        "Ovarian cyst torsion or rupture",
+        "Pelvic inflammatory disease",
+        "Ectopic pregnancy"
+      ],
+      "possible_contradictions": [],
+      "unreliability_factors": [],
+      "confidence": "low",
+      "parse_ok": true
+    },
+    {
+      "primary_diagnosis": "Ectopic pregnancy",
+      "recommendation": "Ectopic pregnancy. Confirm with targeted investigations and treat accordingly.",
+      "main_factors": [
+        "Amenorrhoea 7 weeks",
+        "Unilateral pelvic pain with bleeding",
+        "Previous chlamydia"
+      ],
+      "missing_information": [
+        "Pregnancy test (beta-hCG)",
+        "Pelvic ultrasound",
+        "Vital signs"
+      ],
+      "uncertainty": "Moderate uncertainty.",
+      "alternatives": [
+        "Threatened miscarriage",
+        "Ovarian cyst torsion or rupture",
+        "Pelvic inflammatory disease"
+      ],
+      "possible_contradictions": [],
+      "unreliability_factors": [],
+      "confidence": "low",
+      "parse_ok": true
+    }
+  ],
+  "critical": {
+    "primary_diagnosis": "Threatened miscarriage",
+    "recommendation": "Threatened miscarriage.",
+    "main_factors": [],
+    "missing_information": [
+      "Pregnancy test (beta-hCG)",
+      "Pelvic ultrasound",
+      "Vital signs"
+    ],
+    "uncertainty": "",
+    "alternatives": [],
+    "possible_contradictions": [],
+    "unreliability_factors": [
+      "Synthetic case; no longitudinal data"
+    ],
+    "confidence": "low",
+    "parse_ok": true
+  },
+  "sample_agreement": [
+    true,
+    true,
+    true,
+    false,
+    true
+  ],
+  "signals": [
+    {
+      "name": "consistency",
+      "label": "Consistency across repeated answers",
+      "status": "pass",
+      "value": 0.8,
+      "detail": "4 of 5 repeated answers gave the same diagnosis. Other answers: Threatened miscarriage."
+    },
+    {
+      "name": "prompt_agreement",
+      "label": "Agreement across prompting strategies",
+      "status": "warn",
+      "value": "1/2",
+      "detail": "Only one of the two alternative prompts agreed; the other suggested Threatened miscarriage."
+    },
+    {
+      "name": "contradiction",
+      "label": "Contradictions",
+      "status": "pass",
+      "value": false,
+      "detail": "No contradiction found within the response or against the case data."
+    },
+    {
+      "name": "completeness",
+      "label": "Completeness of requested fields",
+      "status": "pass",
+      "value": 1.0,
+      "detail": "All requested fields were populated."
+    },
+    {
+      "name": "missing_information",
+      "label": "Missing information",
+      "status": "warn",
+      "value": 3.0,
+      "detail": "Critical data missing: Pregnancy test (beta-hCG); Pelvic ultrasound; Vital signs."
+    },
+    {
+      "name": "input_inconsistency",
+      "label": "Inconsistencies in the case data",
+      "status": "pass",
+      "value": 0.0,
+      "detail": "No conflicting facts found in the case data."
+    },
+    {
+      "name": "verbal_confidence",
+      "label": "Model's stated confidence (supplementary)",
+      "status": "warn",
+      "value": "low",
+      "detail": "The model describes its own confidence as low. This is not a calibrated probability."
+    }
+  ],
+  "contradictions": [],
+  "reliability": {
+    "level": "MODERATE",
+    "explanation": "Moderate: consistent across repeated answers and no contradictions found, but the alternative prompts did not all agree, key information is missing (pregnancy test (beta-hcg), pelvic ultrasound, vital signs) and the model itself states low confidence.",
+    "reasons": [
+      "the alternative prompts did not all agree",
+      "key information is missing (pregnancy test (beta-hcg), pelvic ultrasound, vital signs)",
+      "the model itself states low confidence"
+    ],
+    "verify_independently": false
+  },
+  "judge": {
+    "scores": {
+      "completeness": 3.0,
+      "clarity": 4.0,
+      "internal_consistency": 3.0,
+      "uncertainty": 3.0,
+      "missing_information": 2.0,
+      "justification": 3.0
+    },
+    "safety_concern": false,
+    "safety_note": "",
+    "overall": 3.0,
+    "summary": "Reasonable response (mock assessment).",
+    "available": true
+  },
+  "n_llm_calls": 10,
+  "created_at": "2026-09-22T23:33:36+00:00",
+  "auto_correct": true
+}

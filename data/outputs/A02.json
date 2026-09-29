@@ -1,0 +1,251 @@
+{
+  "case_id": "A02",
+  "provider": "mock",
+  "model": "mock-clinical-simulator",
+  "raw_response": "Most likely diagnosis: Vasovagal syncope.\n\nThe findings supporting this are: typical vasovagal prodrome and trigger, family history of sudden death, borderline prolonged qtc. However, the picture is not entirely specific and other causes remain possible.\n\nOther possibilities to consider include long qt syndrome, hypertrophic cardiomyopathy, seizure.\n\nRecommendation: confirm the diagnosis with the appropriate investigations, start guideline-based management and arrange senior review.",
+  "injected": false,
+  "structured": {
+    "primary_diagnosis": "Vasovagal syncope",
+    "recommendation": "Vasovagal syncope. Confirm with targeted investigations and start management.",
+    "main_factors": [
+      "Typical vasovagal prodrome and trigger",
+      "Family history of sudden death",
+      "Borderline prolonged QTc"
+    ],
+    "missing_information": [
+      {
+        "item": "Previous records for comparison",
+        "importance": "minor"
+      }
+    ],
+    "alternatives": [
+      "Long QT syndrome",
+      "Hypertrophic cardiomyopathy",
+      "Seizure"
+    ],
+    "limitations": [
+      "Findings overlap between several conditions"
+    ],
+    "what_would_change": [
+      "If investigations point towards long qt syndrome, reconsider the diagnosis",
+      "If investigations point towards hypertrophic cardiomyopathy, reconsider the diagnosis"
+    ],
+    "verification_points": [
+      "Check: typical vasovagal prodrome and trigger",
+      "Check: family history of sudden death"
+    ],
+    "input_inconsistencies": [],
+    "verbal_confidence": null
+  },
+  "samples": [
+    {
+      "primary_diagnosis": "Vasovagal syncope",
+      "recommendation": "Vasovagal syncope. Confirm with targeted investigations and treat accordingly.",
+      "main_factors": [
+        "Typical vasovagal prodrome and trigger",
+        "Family history of sudden death",
+        "Borderline prolonged QTc"
+      ],
+      "missing_information": [
+        "Previous records for comparison"
+      ],
+      "uncertainty": "Moderate uncertainty.",
+      "alternatives": [
+        "Long QT syndrome",
+        "Hypertrophic cardiomyopathy",
+        "Seizure"
+      ],
+      "possible_contradictions": [],
+      "unreliability_factors": [],
+      "confidence": "medium",
+      "parse_ok": true
+    },
+    {
+      "primary_diagnosis": "Vasovagal syncope",
+      "recommendation": "Vasovagal syncope. Confirm with targeted investigations and treat accordingly.",
+      "main_factors": [
+        "Typical vasovagal prodrome and trigger",
+        "Family history of sudden death",
+        "Borderline prolonged QTc"
+      ],
+      "missing_information": [
+        "Previous records for comparison"
+      ],
+      "uncertainty": "Moderate uncertainty.",
+      "alternatives": [
+        "Long QT syndrome",
+        "Hypertrophic cardiomyopathy",
+        "Seizure"
+      ],
+      "possible_contradictions": [],
+      "unreliability_factors": [],
+      "confidence": "medium",
+      "parse_ok": true
+    },
+    {
+      "primary_diagnosis": "Vasovagal syncope",
+      "recommendation": "Vasovagal syncope. Confirm with targeted investigations and treat accordingly.",
+      "main_factors": [
+        "Typical vasovagal prodrome and trigger",
+        "Family history of sudden death",
+        "Borderline prolonged QTc"
+      ],
+      "missing_information": [
+        "Previous records for comparison"
+      ],
+      "uncertainty": "Moderate uncertainty.",
+      "alternatives": [
+        "Long QT syndrome",
+        "Hypertrophic cardiomyopathy",
+        "Seizure"
+      ],
+      "possible_contradictions": [],
+      "unreliability_factors": [],
+      "confidence": "medium",
+      "parse_ok": true
+    },
+    {
+      "primary_diagnosis": "Long QT syndrome",
+      "recommendation": "Long QT syndrome. Confirm with targeted investigations and treat accordingly.",
+      "main_factors": [
+        "Typical vasovagal prodrome and trigger",
+        "Family history of sudden death",
+        "Borderline prolonged QTc"
+      ],
+      "missing_information": [
+        "Previous records for comparison"
+      ],
+      "uncertainty": "Moderate uncertainty.",
+      "alternatives": [
+        "Hypertrophic cardiomyopathy",
+        "Seizure",
+        "Vasovagal syncope"
+      ],
+      "possible_contradictions": [],
+      "unreliability_factors": [],
+      "confidence": "medium",
+      "parse_ok": true
+    },
+    {
+      "primary_diagnosis": "Long QT syndrome",
+      "recommendation": "Long QT syndrome. Confirm with targeted investigations and treat accordingly.",
+      "main_factors": [
+        "Typical vasovagal prodrome and trigger",
+        "Family history of sudden death",
+        "Borderline prolonged QTc"
+      ],
+      "missing_information": [
+        "Previous records for comparison"
+      ],
+      "uncertainty": "Moderate uncertainty.",
+      "alternatives": [
+        "Hypertrophic cardiomyopathy",
+        "Seizure",
+        "Vasovagal syncope"
+      ],
+      "possible_contradictions": [],
+      "unreliability_factors": [],
+      "confidence": "medium",
+      "parse_ok": true
+    }
+  ],
+  "critical": {
+    "primary_diagnosis": "Vasovagal syncope",
+    "recommendation": "Vasovagal syncope.",
+    "main_factors": [],
+    "missing_information": [],
+    "uncertainty": "",
+    "alternatives": [],
+    "possible_contradictions": [],
+    "unreliability_factors": [
+      "Synthetic case; no longitudinal data"
+    ],
+    "confidence": "medium",
+    "parse_ok": true
+  },
+  "sample_agreement": [
+    true,
+    true,
+    true,
+    false,
+    false
+  ],
+  "signals": [
+    {
+      "name": "consistency",
+      "label": "Consistency across repeated answers",
+      "status": "warn",
+      "value": 0.6,
+      "detail": "3 of 5 repeated answers gave the same diagnosis. Other answers: Long QT syndrome."
+    },
+    {
+      "name": "prompt_agreement",
+      "label": "Agreement across prompting strategies",
+      "status": "pass",
+      "value": "2/2",
+      "detail": "The structured and critical prompts reached the same diagnosis."
+    },
+    {
+      "name": "contradiction",
+      "label": "Contradictions",
+      "status": "pass",
+      "value": false,
+      "detail": "No contradiction found within the response or against the case data."
+    },
+    {
+      "name": "completeness",
+      "label": "Completeness of requested fields",
+      "status": "pass",
+      "value": 1.0,
+      "detail": "All requested fields were populated."
+    },
+    {
+      "name": "missing_information",
+      "label": "Missing information",
+      "status": "pass",
+      "value": 0.0,
+      "detail": "No critical data identified as missing. 1 minor item(s) noted."
+    },
+    {
+      "name": "input_inconsistency",
+      "label": "Inconsistencies in the case data",
+      "status": "pass",
+      "value": 0.0,
+      "detail": "No conflicting facts found in the case data."
+    },
+    {
+      "name": "verbal_confidence",
+      "label": "Model's stated confidence (supplementary)",
+      "status": "pass",
+      "value": "medium",
+      "detail": "The model describes its own confidence as medium. This is not a calibrated probability."
+    }
+  ],
+  "contradictions": [],
+  "reliability": {
+    "level": "MODERATE",
+    "explanation": "Moderate: the alternative prompts agreed and no contradictions found, but the answer was not fully stable across repeated generations.",
+    "reasons": [
+      "the answer was not fully stable across repeated generations"
+    ],
+    "verify_independently": false
+  },
+  "judge": {
+    "scores": {
+      "completeness": 3.0,
+      "clarity": 4.0,
+      "internal_consistency": 3.0,
+      "uncertainty": 3.0,
+      "missing_information": 3.0,
+      "justification": 3.0
+    },
+    "safety_concern": false,
+    "safety_note": "",
+    "overall": 3.0,
+    "summary": "Reasonable response (mock assessment).",
+    "available": true
+  },
+  "n_llm_calls": 10,
+  "created_at": "2026-09-22T23:33:36+00:00",
+  "auto_correct": true
+}
